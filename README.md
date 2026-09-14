@@ -1,5 +1,14 @@
 # Linux Essentials
 
+![Linux](https://img.shields.io/badge/OS-Linux-f34f29?style=for-the-badge&logo=linux&logoColor=white)
+![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Certification](https://img.shields.io/badge/LPI-Linux_Essentials_010--160-00599C?style=for-the-badge&logo=linux&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
+
+---
+
+## Welcome to NDG Linux Essentials!
+
 ### Help & Resources
 - **My Setup:** Created an NDG account because Cisco NetAcad uses their external tools and labs for the course.
 - **Key Takeaway:** Realized that all main learning activities, chapter readings, and lab environments are launched inside the Cisco NetAcad LMS. The NDG portal itself is mainly for tracking gradebook progress and supplemental reference material.
@@ -31,3 +40,11 @@
 - **3.1 Learn More About the LPI Linux Essentials Certification**
   - **Takeaway:** Linux Essentials serves as the foundational prerequisite step before advancing to professional certifications such as **LPIC-1**.
   - **Resource:** Official guidelines and objectives are maintained at [lpi.org](https://www.lpi.org).
+
+---
+
+## 📁 Repository Structure & Modules
+
+| Module / Topic | Description | Status | Link |
+| :--- | :--- | :---: | :---: |
+| **Module 01: Intro to Linux** | Linux ubiquity, kernel architecture, UNIX origins, and GNU/Linux | 🔄 In Progress | [View Notes](./module-01/notes.md) |
