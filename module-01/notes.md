@@ -44,8 +44,6 @@
 
 ## 📸 Proof of Learning (Handwritten Notes)
 
-*These are my original handwritten notes taken during the course readings.*
-
 ### Image 1: Linux is a Kernel & GNU/Linux
 ![Handwritten notes on Linux Kernel and GNU/Linux](./assets/handwritten-notes-1.jpg)
 
@@ -57,13 +55,9 @@
 
 ---
 
-## 🆕 Ongoing Learning & Additions (Flexible Section)
-
-*As I progress through Module 01, I will add new discoveries, lab outputs, and command-line practice here.*
+## 🆕 Ongoing Learning & Additions
 
 ### New Discoveries / Lab Reflections
-- [ ] *(Add new discovery here)*
-- [ ] *(Add new discovery here)*
 
 ### Command Cheat Sheet (Module 01)
 | Command | Description | Example |
