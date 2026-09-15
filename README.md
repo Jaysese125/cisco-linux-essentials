@@ -32,19 +32,13 @@ My goal is to demonstrate foundational Linux CLI proficiency, file management, s
 
 ## 📁 Module Progress & Notes
 
-*This table will be updated as I complete each module.*
-
 | Module | Topic | Description | Status | Notes |
 | :---: | :--- | :--- | :---: | :---: |
 | **01** | Intro to Linux | Linux ubiquity, kernel architecture, UNIX origins, and GNU/Linux | 🔄 In Progress | [View Notes](./module-01/notes.md) |
 
-> **How to update:** When you start a new module, add a new row to this table. When you complete it, change its status to `✅ Complete`.
-
 ---
 
 ## 🛠️ Skills Acquired
-
-*As I progress through the course, I will check off the skills I have mastered:*
 
 - [ ] Linux CLI Basics & Navigation
 - [ ] File Management & Manipulation
