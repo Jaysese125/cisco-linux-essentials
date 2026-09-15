@@ -1,42 +1,80 @@
-\# Module 01: Introduction to Linux
+# Module 01: Introduction to Linux
 
+> **Course:** NDG Linux Essentials  
+> **Status:** 🔄 In Progress  
+> **Objective:** Understand the history, architecture, and core components of the Linux operating system.
 
+---
 
-\## Chapter 1: Introduction to Linux
+## 📖 Chapter 1: Introduction to Linux
 
+### Linux Essentials
 
+#### Linux is a Kernel
+- Linux means the kernel of the system, which is the central controller of everything that happens on the computer.
+- GNU / Linux - defines operating system
+  - GNU is the free software that provides open source equivalents of many common UNIX commands.
+  - The Linux part of this combination is the Linux kernel, which is the core of the operating system. The kernel is loaded at boot time and stays running to manage every aspect of the functioning system.
 
-\### 1.1 Linux is Everywhere
+#### Richard Stallman
+- Prior to and alongside of Linux development was the GNU project created by Richard Stallman in 1963.
+- GNU initially focused on building their own operating system, but they ultimately were far more effective at building tools that go along with a Unix-like operating system that make a kernel usable.
+- Since the source was all freely available, Linux programmers were able to incorporate the GNU tools to provide a complete operating system. As such, many of the tools and utilities that are part of the Linux system evolved from these early GNU tools.
 
-\- \*\*Ubiquity:\*\* Linux powers the majority of global IT infrastructure, including web servers, cloud platforms, internet searches, mobile devices, AI, and big data systems.
+> **Consider this**
+> Linus originally named the project Freax, however, an administrator of the server, where the development files were uploaded renamed it Linux, a portmanteau of Linus name and UNIX. the name stuck.
 
-\- \*\*Career Pathways:\*\* Knowledge of Linux is foundational for cybersecurity, DevOps, system administration, software development, and networking.
+- GNU is a recursive acronym for "GNU's Not UNIX", and it's pronounced just like the african horned antelope that is its namesake.
+- **Linux (kernel)**
+  - Linus Torvalds 1991
+- **GNU (GNU's Not Unix)**
+  - Richard Stallman 1983
 
-\- \*\*Evolutionary Stability:\*\* Built on core UNIX concepts from over 30 years ago. Command line mechanics remain highly consistent over time, requiring manageable ongoing updates to keep up with industry changes.
+#### Linux begins with UNIX
+- UNIX is an operating system developed at AT&T Bell Labs in the 1970s.
+- UNIX is written in the C language making it uniquely portable amongst competing operating systems.
+- UNIX is now both a trademark and a specification owned by an industry consortium called the Open Group. Only software that has been certified by the Open Group may call itself UNIX.
 
+#### Linus Torvalds
+- Linux started in 1991 as a hobby project of Linus Torvalds, a Finnish-born computer scientist staying at the University of Helsinki.
+- Frustrated by the licensing of Minix, a UNIX-like operating system designed for educational use, and its creator's desire not to make it a full operating system, Linus decided to create his own OS kernel.
+- Linux has grown to be dominant operating system. Despite adopting all requirements of the UNIX specification, Linux isn't UNIX! It's just UNIX-like.
 
+---
 
-\---
+## 📸 Proof of Learning (Handwritten Notes)
 
+*These are my original handwritten notes taken during the course readings.*
 
+### Image 1: Linux is a Kernel & GNU/Linux
+![Handwritten notes on Linux Kernel and GNU/Linux](./assets/handwritten-notes-1.jpg)
 
-\### 1.2 Linux is a Kernel
+### Image 2: Richard Stallman & The GNU Project
+![Handwritten notes on Richard Stallman and GNU Project](./assets/handwritten-notes-2.jpg)
 
-\- \*\*Kernel vs. OS Definition:\*\* 
+### Image 3: UNIX History & Linus Torvalds
+![Handwritten notes on UNIX and Linus Torvalds](./assets/handwritten-notes-3.jpg)
 
-&#x20; - \*\*Linux Kernel:\*\* The core component of the OS that loads at boot time and manages system hardware, processes, and memory allocations.
+---
 
-&#x20; - \*\*GNU/Linux:\*\* The full operating system combining the Linux kernel with GNU open-source utilities and tools.
+## 🆕 Ongoing Learning & Additions (Flexible Section)
 
-\- \*\*Historical Origins \& UNIX Legacy:\*\*
+*As I progress through Module 01, I will add new discoveries, lab outputs, and command-line practice here.*
 
-&#x20; - \*\*UNIX (1970s):\*\* Developed at AT\&T Bell Labs written in C for hardware portability. Today, "UNIX" is a trademark and specification managed by The Open Group.
+### New Discoveries / Lab Reflections
+- [ ] *(Add new discovery here)*
+- [ ] *(Add new discovery here)*
 
-&#x20; - \*\*GNU Project (1983):\*\* Founded by Richard Stallman to build a free UNIX-like OS. GNU produced essential user-land utilities (compilers, text editors, shells) used alongside Linux. \*(GNU stands recursively for "GNU's Not Unix")\*.
+### Command Cheat Sheet (Module 01)
+| Command | Description | Example |
+| :--- | :--- | :--- |
+| `uname -r` | Show Linux kernel version | `uname -r` |
+| `su` | Switch user (to root) | `su` |
+| `ls` | List directory contents | `ls -la` |
 
-&#x20; - \*\*Linux Kernel Creation (1991):\*\* Started by Linus Torvalds at the University of Helsinki as a hobby replacement for MINIX.
+---
 
-&#x20; - \*\*Naming Trivia:\*\* Linus originally intended to name the kernel \*\*Freax\*\*, but a server administrator named the upload directory \*\*Linux\*\* (Linus + UNIX).
-
-\- \*\*Technical Classification:\*\* Linux implements UNIX specifications, but because it is uncertified by The Open Group, it is classified strictly as \*\*UNIX-like\*\*, not UNIX.
-
+## 📚 Resources
+- [LPI Linux Essentials Official Page](https://www.lpi.org/our-certifications/linux-essentials-overview/)
+- [GNU Project Official Website](https://www.gnu.org/)
+- [The Linux Kernel Archives](https://www.kernel.org/)
