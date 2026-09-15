@@ -37,10 +37,8 @@ My goal is to demonstrate foundational Linux CLI proficiency, file management, s
 | Module | Topic | Description | Status | Notes |
 | :---: | :--- | :--- | :---: | :---: |
 | **01** | Intro to Linux | Linux ubiquity, kernel architecture, UNIX origins, and GNU/Linux | 🔄 In Progress | [View Notes](./module-01/notes.md) |
-| **02** | *(Upcoming)* | *(Add description here)* | ⏳ Pending | - |
-| **03** | *(Upcoming)* | *(Add description here)* | ⏳ Pending | - |
 
-> **How to update:** When you complete a module, simply change its status to `✅ Complete` and add a new row for the next module.
+> **How to update:** When you start a new module, add a new row to this table. When you complete it, change its status to `✅ Complete`.
 
 ---
 
