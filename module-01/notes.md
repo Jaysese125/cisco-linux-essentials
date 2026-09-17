@@ -1,7 +1,7 @@
 # Module 01: Introduction to Linux
 
 > **Course:** NDG Linux Essentials  
-> **Status:** 🔄 In Progress  
+> **Status:** ✅ Complete  
 > **Objective:** Understand the history, architecture, and core components of the Linux operating system.
 
 ---
@@ -40,7 +40,7 @@
 - Frustrated by the licensing of Minix, a UNIX-like operating system designed for educational use, and its creator's desire not to make it a full operating system, Linus decided to create his own OS kernel.
 - Linux has grown to be dominant operating system. Despite adopting all requirements of the UNIX specification, Linux isn't UNIX! It's just UNIX-like.
 
-#### Linux is Open Source
+#### 1.3 Linux is Open Source
 - Most software has been issued under a closed-source license, meaning that you get the right to use the machine code, but cannot see the source code.
 - Often the license explicitly says that you may not attempt to reverse engineer the machine code back to source code to figure out what it does.
 - The development of Linux closely parallels the rise of open source software.
@@ -55,7 +55,7 @@
 
 - This decision, made long before its utility was proven, turned out to be crucial in its nearly universal adoption as the primary operating system for internet servers.
 
-#### Linux Has Distributions
+#### 1.4 Linux Has Distributions
 - Linux = kernel + GNU tools + etc = distribution?
 - People that say their computer runs Linux usually refer to the kernel, tools, and suite of applications that come bundled together in what is referred to as a distribution.
 - Take Linux and the GNU tools, add some user-facing applications like a web browser and an email client, and you have a full Linux system.
@@ -63,6 +63,19 @@
 - The distribution includes tools that take care of setting up the storage, installing the kernel, and installing the rest of the software. The full-featured distributions also include tools to manage the system and a package manager to help you add and remove software after the installation is complete.
 - Like Unix, there are distributions suited to every imaginable purpose. There are distributions that focus on running servers, desktops, or even industry-specific tools such as electronics design or statistical computing.
 - The major players in the market can be traced back to either Red Hat, Debian or Slackware. The most visible difference between Red Hat and Debian derivatives is the package manager though there are other differences in everything from file locations to political philosophies.
+
+#### 1.5 Linux Embraces the CLI
+- Two basic types of interfaces that allow you to interact with the operating system.
+  - the typical computer user today is most familiar with a Graphical User Interface (GUI). In a GUI, applications present themselves in windows that can be resized and moved around.
+  - there are menus and tools (editing tools) to help users navigate. Graphical applications include web browsers, graphics editing tools and email, to name a few.
+- The second type of interface is the command line interface (CLI), a text-based interface to the computer. the CLI relies primarily on keyboard input.
+- Everything the user wants the computer to do is relayed by typing commands rather than clicking on icons. It can be said that when a user clicks on an icon, the computer is telling the user what to do, but, when the user types a command, they are telling the computer what to do.
+- Typically operating systems offer both GUI and CLI interfaces. However, most consumer operating systems (Windows, macOS) are designed to shield the user from the complexity of the CLI.
+- The Linux community is different in that it positively celebrates the CLI for its power, speed and ability to accomplish a vast array of tasks with a single command line instruction.
+- When a user first encounters the CLI, they can find it challenging because it requires memorizing a dizzying amount of commands and their options.
+- However, once a user has learned the structure of how commands are used, where the necessary files and directories are located and how to navigate the hierarchy of a filesystem, they can be immensely productive.
+- This capability provides more precise control, greater speed and the ability to easily automate tasks through scripting.
+- Furthermore, by learning the CLI, a user can easily be productive almost instantly on any distribution of Linux, reducing the amount of time needed to familiarize themselves with a system because of variations in a GUI.
 
 ---
 
@@ -85,6 +98,12 @@
 
 ### Image 6: Linux Distributions & Package Managers
 ![Handwritten notes on Linux distributions and package managers](./assets/handwritten-notes-6.jpg)
+
+### Image 7: Linux Embraces the CLI (Part 1)
+![Handwritten notes on Linux embracing the CLI part 1](./assets/handwritten-notes-7.jpg)
+
+### Image 8: Linux Embraces the CLI (Part 2)
+![Handwritten notes on Linux embracing the CLI part 2](./assets/handwritten-notes-8.jpg)
 
 ---
 
