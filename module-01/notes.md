@@ -40,6 +40,30 @@
 - Frustrated by the licensing of Minix, a UNIX-like operating system designed for educational use, and its creator's desire not to make it a full operating system, Linus decided to create his own OS kernel.
 - Linux has grown to be dominant operating system. Despite adopting all requirements of the UNIX specification, Linux isn't UNIX! It's just UNIX-like.
 
+#### Linux is Open Source
+- Most software has been issued under a closed-source license, meaning that you get the right to use the machine code, but cannot see the source code.
+- Often the license explicitly says that you may not attempt to reverse engineer the machine code back to source code to figure out what it does.
+- The development of Linux closely parallels the rise of open source software.
+  - Open source takes a source centric view of software.
+- the open source philosophy is that you have a right to obtain the software source code and to modify it for your own use.
+- Linux adopted this philosophy to great success. Linux made the source programming code (the instruction a computer uses to operate) freely available, allowing others to join in and shape this fledgling operating system.
+- It was not the first system to be developed by a volunteer group, but since it was built from scratch, early adopters could influence the project's direction.
+- People took the source, made changes, and shared them back with the rest of the group, greatly accelerating the pace of development, and ensuring mistakes from other operating systems were not repeated.
+
+> **Consider this**
+> the source code may be written in any of hundreds of different languages. Linux happens to be written in C, a versatile and relatively easy language to learn, which shares history with the original UNIX.
+
+- This decision, made long before its utility was proven, turned out to be crucial in its nearly universal adoption as the primary operating system for internet servers.
+
+#### Linux Has Distributions
+- Linux = kernel + GNU tools + etc = distribution?
+- People that say their computer runs Linux usually refer to the kernel, tools, and suite of applications that come bundled together in what is referred to as a distribution.
+- Take Linux and the GNU tools, add some user-facing applications like a web browser and an email client, and you have a full Linux system.
+- Individuals and even companies started bundling all this software into distributions almost as soon as Linux became usable.
+- The distribution includes tools that take care of setting up the storage, installing the kernel, and installing the rest of the software. The full-featured distributions also include tools to manage the system and a package manager to help you add and remove software after the installation is complete.
+- Like Unix, there are distributions suited to every imaginable purpose. There are distributions that focus on running servers, desktops, or even industry-specific tools such as electronics design or statistical computing.
+- The major players in the market can be traced back to either Red Hat, Debian or Slackware. The most visible difference between Red Hat and Debian derivatives is the package manager though there are other differences in everything from file locations to political philosophies.
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -52,6 +76,15 @@
 
 ### Image 3: UNIX History & Linus Torvalds
 ![Handwritten notes on UNIX and Linus Torvalds](./assets/handwritten-notes-3.jpg)
+
+### Image 4: Linux is Open Source
+![Handwritten notes on Linux being open source](./assets/handwritten-notes-4.jpg)
+
+### Image 5: Open Source Philosophy & Linux Distributions
+![Handwritten notes on open source philosophy and Linux distributions](./assets/handwritten-notes-5.jpg)
+
+### Image 6: Linux Distributions & Package Managers
+![Handwritten notes on Linux distributions and package managers](./assets/handwritten-notes-6.jpg)
 
 ---
 
