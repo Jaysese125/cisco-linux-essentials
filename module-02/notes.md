@@ -52,6 +52,34 @@
 - the need for physical hardware upgrades has also been decreased immensely with the advent of cloud services providers like AMAZON WEB SERVICES, RACKSPACE, and MICROSOFT AZURE.
 - Similar advances have helped desktop administrators manage upgrades in an automatic fashion and with little to no user interruption.
 
+#### Stability
+- individual software releases can be characterized as beta or stable depending on where they are in the release cycle. when a software release has many new features that haven't been tested, it's typically referred to as beta. After being tested in the field, it's designation changes to stable.
+- users who need the latest features can decide to use beta software. This is often done in the development phase of a new development and provides the ability to request features not available on the stable release.
+- production servers typically use stable software unless needed features are not available, and the risk of running code that has not been thoroughly tested is outweighed by the utility provided.
+- software in the open source realm is often released for peer review very early on in its development process, and can very quickly be put into testing and even production environments, providing extremely useful feedback and code submissions to fix issues found or features needed.
+- Conversely, proprietary software will often be kept secret for most of its development, only reaching a public beta test when it's almost ready for release.
+
+#### Compatibility
+- Another loosely-related concept is backward compatibility which refers to the ability of later operating systems to be compatible with software made for earlier versions. This is usually a concern when its necessary to upgrade an operating system, but an application software upgrade is not possible due to cost or lack of availability.
+- The norm for open source software development is to ensure backward compatibility first and break things only as a last resort. the common practice of maintaining and versioning libraries of functions helps this greatly.
+- Typically, a library that is used by one or more programs is versioned as a new release when significant changes have occurred but also keeps all the functions (and compatibility) of earlier versions that may be hard-coded or referred by existing software.
+
+#### Cost
+- cost is always a factor when specifying new systems. Microsoft has annual licensing fees that apply to users, servers and other software, as do many other software companies. Ultimately, the choice of operating system will be affected by available hardware, staff resources and skill, cost of purchase, maintenance, and projected future requirements.
+- virtualization and outsourced support services offer the modern IT organization the promise of having to pay for only what it uses rather than building in excess capacity. This not only control costs but offer opportunities for people both inside and outside the organization to provide expertise and values.
+
+#### Interface
+- The first electronic computer systems were controlled by means of switches and plugboards similar to those used by telephone operators at the time. then came punch cards and finally a text-based terminal system similar to the Linux command line interface (CLI) in use today.
+- The graphical user interface (GUI), with a mouse and buttons to click, was pioneered at Xerox PARC (Palo Alto Research Center) in the early 1970s and popularized by Apple computer in the 1980s.
+- Today, operating systems offer both GUI and CLI interfaces, however, most consumer operating systems (window, MacOS) are designed to shield the user from the ins and outs of the CLI.
+
+### 2.2 Microsoft Windows
+- Microsoft offers different versions of its operating system according to the machine's role: desktop or server?
+- The desktop version of windows has undergone various naming schemes with the current version (as of this writing) being simply windows 11.
+- While new versions of most Linux distributions comeout twice a year, around March and September, new versions of windows tend to be released only every few years.
+- In all, there have been 16 versions of windows since 1985. backward compatibility is a priority for Microsoft, even going far as to bundle virtual machine technology so that users can run older software.
+- windows server currently (as of this writing) is at version 2019 to denote the release date. the server can run GUI but recently microsoft, largely as a competitive response to linux, has made incredible strides in its command line scripting capabilities through Powershell and Windows Subsystem for Linux (WSL). there is also an optional Desktop Experience package which mimics a standard productivity machine. Microsoft also actively encourages enterprise customers to incorporate its Azure cloud service.
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -73,6 +101,18 @@
 
 ### Image 6: Decision Points - Virtualization & Cloud
 ![Handwritten notes on decision points virtualization and cloud](./assets/handwritten-notes-6.jpg)
+
+### Image 7: Stability & Compatibility
+![Handwritten notes on stability and compatibility](./assets/handwritten-notes-7.jpg)
+
+### Image 8: Compatibility & Cost
+![Handwritten notes on compatibility and cost](./assets/handwritten-notes-8.jpg)
+
+### Image 9: Interface & GUI History
+![Handwritten notes on interface and GUI history](./assets/handwritten-notes-9.jpg)
+
+### Image 10: Microsoft Windows
+![Handwritten notes on Microsoft Windows](./assets/handwritten-notes-10.jpg)
 
 ---
 
