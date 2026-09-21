@@ -80,6 +80,24 @@
 - In all, there have been 16 versions of windows since 1985. backward compatibility is a priority for Microsoft, even going far as to bundle virtual machine technology so that users can run older software.
 - windows server currently (as of this writing) is at version 2019 to denote the release date. the server can run GUI but recently microsoft, largely as a competitive response to linux, has made incredible strides in its command line scripting capabilities through Powershell and Windows Subsystem for Linux (WSL). there is also an optional Desktop Experience package which mimics a standard productivity machine. Microsoft also actively encourages enterprise customers to incorporate its Azure cloud service.
 
+### 2.3 Apple MacOS
+- Apple makes the macOS operating system, which is partially based on software from the FreeBSD project and has undergone UNIX certification.
+- macOS is well known for being "easy to use", and such has continued to be favored by users with limited access to IT resources like schools and small businesses. It is also very popular with programmers due to its robust UNIX underpinnings.
+- On the server side, macOS server is primarily aimed at smaller organizations. This low-cost addition to macOS desktop allows users to collaborate, and administrators to control access to shared resources. It also provides integration with iOS devices like the iPhone and iPod.
+- Some large corporate IT departments allow users to choose macOS since users often require less support than standard Microsoft productivity deployments. The continued popularity of macOS has ensured healthy support from software vendors. macOS is also quite popular in the creative industries such as graphics and video production.
+- For many of these users, application choice drives the operating system decision. Apple hardware, being integrated so closely with the operating system, and their insistence on adherence to standards in application programming gives these creative professionals a stable platform to perform many computing intense functions with fewer concerns about compatibility.
+
+### 2.4 Linux
+- Linux users typically obtain an operating system by downloading a distribution. A Linux distribution is a bundle of software, typically comprised of the Linux kernel, utilities, management tools, and even some application software in a package which also includes the means to update core software and install additional applications.
+- The distribution takes care of setting up the storage, building the kernel and installing hardware drivers, as well as installing applications and utilities to make a fully functional computer system.
+- The organizations that create distributions also include tools to manage the system, a package manager to add and remove software, as well as update programs to provide security and functionality patches.
+- The number of Linux distributions available numbers in the hundreds, so the choice can seem daunting at first. However, the decision points are mostly the same as those highlighted for choosing an operating system.
+
+#### Role
+- With Linux, there are multiple options to choose from depending on organizational needs. The variety of systems distributions and accompanying software allows the operating system to be significantly more flexible and customizable.
+- Distributions are available for a much wider variety of systems, from commercial offerings for the traditional server or desktop roles, to specialized distributions designed to turn an old computer into a network firewall, from distributions created to power a supercomputer, to those that enable embedded systems.
+- These might focus on running application or web servers, productivity desktops, point-of-sale systems, or even tools dedicated to electronics design or statistical computing.
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -113,6 +131,15 @@
 
 ### Image 10: Microsoft Windows
 ![Handwritten notes on Microsoft Windows](./assets/handwritten-notes-10.jpg)
+
+### Image 11: Apple MacOS
+![Handwritten notes on Apple MacOS](./assets/handwritten-notes-11.jpg)
+
+### Image 12: macOS Users & Linux Distributions
+![Handwritten notes on macOS users and Linux distributions](./assets/handwritten-notes-12.jpg)
+
+### Image 13: Linux Distributions & Role
+![Handwritten notes on Linux distributions and role](./assets/handwritten-notes-13.jpg)
 
 ---
 
