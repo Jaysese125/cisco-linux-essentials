@@ -38,6 +38,10 @@
 
 #### Function
 - Next point is to determine the functions of the machine. Is there a specific software it needs to run, or specific functions it needs to perform? Will there be hundreds, even thousands, of these machines running at the same time? What is the skill-set of the team managing the computer and software?
+- Commercial and large enterprises may also limit their choices to distributions that offer commercial support because paying for another tier of support may be better than risking extensive outages.
+- For the most part, concerns over security have been addressed through the large open source community, which monitors kernel changes for vulnerabilities and provides bug reporting and fixes at a much larger scale than closed source vendors can achieve.
+- Support for Necessary applications may vary and is, therefore, an additional consideration. Open application vendors choose a subset of distributions to support.
+- Different distributions have different versions of key libraries, and it is difficult for a company to support all these different versions. However, some applications like Firefox and LibreOffice are widely supported and available for all major distributions.
 
 #### life cycle
 - the service lifetime and risk tolerance of the server also needs to be determined. Operating systems and software upgrades come on a periodic basis, called a release cycle.
@@ -51,6 +55,10 @@
 - scripting programs allow virtual machines to be created, configured, deployed and removed from a network without the need for human intervention. Of course, a human still needs to write the script and monitor these systems, at least for now.
 - the need for physical hardware upgrades has also been decreased immensely with the advent of cloud services providers like AMAZON WEB SERVICES, RACKSPACE, and MICROSOFT AZURE.
 - Similar advances have helped desktop administrators manage upgrades in an automatic fashion and with little to no user interruption.
+- Most distributions have both major and minor update updates to introduce new features and fix bugs, existing bugs. Additionally, there are development packages where users can contribute code and submit patches for possible inclusion into new releases.
+- Linux distributions can be broadly classified in two main categories: enthusiasts and enterprise. An enthusiasts distribution such as openSUSE's tumbleweed has a fast update cycle, is not supported for enterprise and was not maintain (or drop) features or software in the next version that are in the current one.
+- Red Hat's Fedora project uses a similar method of development and release cycle, as does Ubuntu's desktop.
+- Enterprise distributions are almost the exact opposite, in that they take care to be stable and consistent, and offer enterprise-grade support for extended periods, anywhere from 5-13 years in the case of SUSE. Enterprise distributions are power by for, being offered mainly by Red Hat, Canonical and SUSE.
 
 #### Stability
 - individual software releases can be characterized as beta or stable depending on where they are in the release cycle. when a software release has many new features that haven't been tested, it's typically referred to as beta. After being tested in the field, it's designation changes to stable.
@@ -58,6 +66,10 @@
 - production servers typically use stable software unless needed features are not available, and the risk of running code that has not been thoroughly tested is outweighed by the utility provided.
 - software in the open source realm is often released for peer review very early on in its development process, and can very quickly be put into testing and even production environments, providing extremely useful feedback and code submissions to fix issues found or features needed.
 - Conversely, proprietary software will often be kept secret for most of its development, only reaching a public beta test when it's almost ready for release.
+- Application software may be written such that it only supports a specific release of a distribution, requiring users to remain on an older, less secure operating system than they might like. Therefore, some Linux releases are considered to have a long term support (LTS) of 5 years or more while others are only supported for two(2) years or less.
+- Some distributions offer stable, testing and unstable releases. When choosing an unstable release for required features, consideration must be given to the fact that those features may change or disappear during the development cycle.
+- Linux features have been integrated into the system for a long time, with most of the bugs and issues addressed, the software moves through testing into the stable release.
+- Other releases depend on beta distributions. For instance, the Fedora distribution releases beta on pre-release of its software ahead of the full release to minimize bugs. Fedora is often considered the community-oriented beta release of Red Hat. Features are added and changed in the Fedora release before finding their way into the enterprise-ready RedHat distribution.
 
 #### Compatibility
 - Another loosely-related concept is backward compatibility which refers to the ability of later operating systems to be compatible with software made for earlier versions. This is usually a concern when its necessary to upgrade an operating system, but an application software upgrade is not possible due to cost or lack of availability.
@@ -97,6 +109,15 @@
 - With Linux, there are multiple options to choose from depending on organizational needs. The variety of systems distributions and accompanying software allows the operating system to be significantly more flexible and customizable.
 - Distributions are available for a much wider variety of systems, from commercial offerings for the traditional server or desktop roles, to specialized distributions designed to turn an old computer into a network firewall, from distributions created to power a supercomputer, to those that enable embedded systems.
 - These might focus on running application or web servers, productivity desktops, point-of-sale systems, or even tools dedicated to electronics design or statistical computing.
+
+> **Consider this:**
+> openSUSE and its enterprise counterpart, SUSE Linux Enterprise Server (SLES) are similar, in that the community edition is used as a testing ground for the features and functions that will eventually be migrated into the enterprise version.
+> Previously, some/most distribution, later versions of the openSUSE and SLES distribution codebases are nearly identical, allowing for easier assimilation of features and code from one to the other.
+
+#### Consider This
+- The Debian distribution warns users about the pitfalls of using the "sid" (unstable) release with the following warning:
+> "sid" is subject to massive changes and in-place library updates. This can result in a very "unstable" system which contains packages that cannot be installed due to missing libraries, dependencies that cannot be fulfilled, etc. Use it at your own risk!
+- your chosen Linux distribution itself might be zero cost, but paying for support may be worthwhile depending on organizational needs and capabilities.
 
 ---
 
@@ -140,6 +161,18 @@
 
 ### Image 13: Linux Distributions & Role
 ![Handwritten notes on Linux distributions and role](./assets/handwritten-notes-13.jpg)
+
+### Image 14: Functions & Support
+![Handwritten notes on functions and support](./assets/handwritten-notes-14.jpg)
+
+### Image 15: Life Cycle & Red Hat Fedora
+![Handwritten notes on life cycle and Red Hat Fedora](./assets/handwritten-notes-15.jpg)
+
+### Image 16: Stability & Application Software
+![Handwritten notes on stability and application software](./assets/handwritten-notes-16.jpg)
+
+### Image 17: openSUSE, SLES & Debian sid
+![Handwritten notes on openSUSE, SLES and Debian sid](./assets/handwritten-notes-17.jpg)
 
 ---
 
