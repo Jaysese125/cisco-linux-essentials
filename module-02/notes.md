@@ -84,6 +84,17 @@
 - The first electronic computer systems were controlled by means of switches and plugboards similar to those used by telephone operators at the time. then came punch cards and finally a text-based terminal system similar to the Linux command line interface (CLI) in use today.
 - The graphical user interface (GUI), with a mouse and buttons to click, was pioneered at Xerox PARC (Palo Alto Research Center) in the early 1970s and popularized by Apple computer in the 1980s.
 - Today, operating systems offer both GUI and CLI interfaces, however, most consumer operating systems (window, MacOS) are designed to shield the user from the ins and outs of the CLI.
+- like most operating systems, linux can be used in one of two ways: graphical (GUI) and non-graphical (CLI)
+- in graphical mode, users can have several different windows with terminal applications (shells) open, which is very helpful when performing tasks on multiple remote computers. Administrators and users can log-in with their username and password through a graphical interface.
+- the second type of interface, the CLI, is a text-based interface to the computer, where the user types in a command and the computer then executes it.
+- the CLI environment is provided by an application on the computer known as a Terminal. the terminal accepts what the user types and passes to a Shell.
+- the shell interprets what the user has typed into instructions that can be executed by the operating system. If output is produced by the command, then this text is displayed in the terminal. If problems with the command are encountered, then an error message is displayed.
+- the CLI starts with a text-based login. In a successful login, after being prompted for a username and password, you are taken to a CLI shell customized for the particular user.
+- In CLI mode there are no windows to move around. Text editors, web browsers, and email clients are all presented in text format only. This is how UNIX operated before graphical environments were the norm. Most servers run in this mode too, since people don't log into them directly, making graphical interface a waste of resources.
+- During login there may be some text displayed called the Message of the Day (MOTD). this is an opportunity for the system administrator to pass information to users, or just make a silly joke.
+- Following the MOTD is the command prompt, where you can enter commands for the computer to execute.
+- As new commands are entered and processed, the window scrolls up and older text is lost across the top. the terminal itself is responsible for keeping any history, such as to allow the user to scroll up and see previously entered commands.
+- As far as Linux is concerned, what is on the screen is all that there is. There's nothing to move around.
 
 ### 2.2 Microsoft Windows
 - Microsoft offers different versions of its operating system according to the machine's role: desktop or server?
@@ -118,6 +129,21 @@
 - The Debian distribution warns users about the pitfalls of using the "sid" (unstable) release with the following warning:
 > "sid" is subject to massive changes and in-place library updates. This can result in a very "unstable" system which contains packages that cannot be installed due to missing libraries, dependencies that cannot be fulfilled, etc. Use it at your own risk!
 - your chosen Linux distribution itself might be zero cost, but paying for support may be worthwhile depending on organizational needs and capabilities.
+
+#### 2.4.1 Linux Distributions
+
+##### Red Hat
+- Red Hat started as a simple distribution that introduced Red Hat Package Manager (RPM). the developer eventually formed a company around it, which tried to commercialize a Linux desktop for business.
+- Over time, Red Hat started to focus more on the server applications, such as web- and file- serving and released Red Hat Enterprise Linux (RHEL), which was a paid service on a long release cycle. the release cycle dictates how often software is upgraded.
+- A business may value stability and want long release cycles, while a hobbyist or a startup may want the latest software and opt for a shorter release cycle. To satisfy the latter group, Red Hat sponsors the Fedora Project which makes a personal desktop comprising the latest software but is still built on the same foundations as the enterprise version.
+- Because everything in Red Hat Enterprise Linux is opensource, a project called CentOS came to be. It recompiled all the RHEL packages (converting their source code from the programming language they were written into language usable by the system) and gave them away for free.
+- CentOS and others like it (such as Scientific Linux) are largely compatible with RHEL and integrate some newer software, but do not offer the paid support that Red Hat does.
+- Scientific Linux is an example of a specific-use distribution based on Red Hat. the project is a Fermilab-sponsored distribution designed to enable scientific computing.
+- Among its many applications, Scientific Linux is used with particle accelerators including the Large Hadron Collider at CERN.
+
+##### SUSE
+- originally derived from Slackware, was one of the first comprehensive Linux distributions, it has many similarities to Red Hat Enterprise Linux.
+- the original company was purchased by Novell in 2003, which was the purchased by The Attachmate Group in 2011. The Attachmate group then merged with Micro Focus International in 2014, and in 2018 SUSE announced plans to go forward as an independent business. through an of the mergers and acquisitions, SUSE has managed to continue and grow.
 
 ---
 
@@ -173,6 +199,18 @@
 
 ### Image 17: openSUSE, SLES & Debian sid
 ![Handwritten notes on openSUSE, SLES and Debian sid](./assets/handwritten-notes-17.jpg)
+
+### Image 18: Interface & CLI Environment
+![Handwritten notes on interface and CLI environment](./assets/handwritten-notes-18.jpg)
+
+### Image 19: CLI Mode & MOTD
+![Handwritten notes on CLI mode and MOTD](./assets/handwritten-notes-19.jpg)
+
+### Image 20: Red Hat & Fedora
+![Handwritten notes on Red Hat and Fedora](./assets/handwritten-notes-20.jpg)
+
+### Image 21: CentOS, Scientific Linux & SUSE
+![Handwritten notes on CentOS, Scientific Linux and SUSE](./assets/handwritten-notes-21.jpg)
 
 ---
 
