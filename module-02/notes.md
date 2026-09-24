@@ -242,9 +242,6 @@
 ### Image 24: Raspbian & Linux from Scratch
 ![Handwritten notes on Raspbian and Linux from Scratch](./assets/handwritten-notes-24.jpg)
 
-### Image 25: Linux Distributions Summary
-![Handwritten notes on Linux distributions summary](./assets/handwritten-notes-25.jpg)
-
 ---
 
 ## 🆕 Ongoing Learning & Additions
