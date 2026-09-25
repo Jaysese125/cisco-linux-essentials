@@ -1,7 +1,7 @@
 # Module 02: Operating Systems
 
 > **Course:** NDG Linux Essentials  
-> **Status:** 🔄 In Progress  
+> **Status:** ✅ Complete  
 > **Objective:** Understand the role of operating systems, different interface types, and major OS families.
 
 ---
@@ -166,6 +166,36 @@
 - Linux from Scratch (LFS) is more of a learning tool than a working distribution. This project consists of an online book, and source code, with 'step-by-step instructions' for building a custom Linux distribution from the source code up. This 'distribution' embodies the true spirit of Linux whereby users can modify any aspect of the operating system and learn how all the pieces work together. It's also good starting point for anyone else who needs specialized functionality or an ultra-compact build for an embedded system.
 - "Be aware that there are hundreds, if not thousands more Linux distributions that are available. While there are many different distributions of Linux, many of the programs and commands remain the same or very similar."
 
+### 2.4.2 Embedded Systems
+- Linux started out as something that would only run on a computer like linus torvald's: an intel 386 PC with a specific hard drive controller, but since anyone could add to or change Linux, people started building support for other hardware.
+- Eventually, Linux started supporting other chips with an emphasis on small size and low power consumption.
+- Because of this flexibility, a significant number of device makers have used linux as the operating system for their hardware products.
+- Today we call these embedded systems because they are designed to do a specific task on hardware optimized for only that purpose. these systems encompass a tremendous diversity of devices that are used today, from cell phones to smart TVs and appliances, to remote monitoring systems for pipelines and factories.
+- As linux evolved, specialized processor chips were developed for consumer and industrial devices to take advantage of its capabilities. support for linux has become so ubiquitous that it is possible to prototype and bring to market new devices using off-the-shelf components.
+- the rise of cheap, small, adaptable single-board computers like the Raspberry Pi has given experimenters and entrepreneurs everywhere tools to quickly build custom solutions, powered by linux, that would have taken months of work by specialized teams just a few years ago.
+- while consumers are familiar with embedded linux entertainment devices like digital video recorders (DVRs) and "smart TVs", the real impact of embedded system, linux is just starting to be realized. the internet of things (IoT) is just a ramping up with cheap, ubiquitous devices being deployed on everything from oil wells to solar generating farms.
+- these networks of smart sensors and controllers enable engineers to adjust critical processes in real time while monitoring and reporting back to central control stations. as more processes are being monitored and more data is being integrated with machine learning and artificial intelligence (AI) we can anticipate gains in efficiency, safety and productivity only dreamed of by past generations.
+
+---
+
+## 🏆 Chapter 02 Exam Results
+
+**Score:** 100% (10/10 Correct)  
+**Date:** September 25, 2026
+
+| Question | Answer | Section |
+| :--- | :--- | :---: |
+| Embedded Systems means: | Systems designed to do a specific task on hardware optimized for only that purpose | 2.4.2 |
+| In Linux, RPM can be defined as: | The Package Manager program for Red Hat Linux | 2.4.1 |
+| SUSE is derived from which distribution? | Slackware | 2.4.1 |
+| IoT is one application of embedded systems: | True | 2.4.2 |
+| The Raspberry Pi is popular with experimenters because: | It's cheap and adaptable | 2.4.1 |
+| The release cycle: | Dictates how often software is updated | 2.4.1 |
+| Debian is a community effort that supports many hardware platforms | True | 2.4.1 |
+| The Linux platform that runs on mobile phones is called: | Android | 2.4.1 |
+| Which distributions are made by, or are clones of, RedHat? | Fedora, CentOS | 2.4.1 |
+| When choosing a distribution of Linux, you should consider: | If the application software is supported by the distribution, Will commercial support be required for the OS, Does your organization require long-term support for the system, Does the distribution offer a "stable" version, Will users require a GUI | 2.4 |
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -241,6 +271,12 @@
 
 ### Image 24: Raspbian & Linux from Scratch
 ![Handwritten notes on Raspbian and Linux from Scratch](./assets/handwritten-notes-24.jpg)
+
+### Image 25: Embedded Systems
+![Handwritten notes on embedded systems](./assets/handwritten-notes-25.jpg)
+
+### Image 26: IoT & Embedded Linux
+![Handwritten notes on IoT and embedded Linux](./assets/handwritten-notes-26.jpg)
 
 ---
 

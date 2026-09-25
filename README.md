@@ -35,13 +35,14 @@ My goal is to demonstrate foundational Linux CLI proficiency, file management, s
 | Module | Topic | Description | Status | Notes |
 | :---: | :--- | :--- | :---: | :---: |
 | **01** | Intro to Linux | Linux ubiquity, kernel architecture, UNIX origins, and GNU/Linux | ✅ Complete | [View Notes](./module-01/notes.md) |
-| **02** | Operating Systems | OS role, GUI vs CLI interfaces, and major OS families | 🔄 In Progress | [View Notes](./module-02/notes.md) |
+| **02** | Operating Systems | OS role, GUI vs CLI interfaces, and major OS families | ✅ Complete | [View Notes](./module-02/notes.md) |
 
 ---
 
 ## 🛠️ Skills Acquired
 
 - [x] Linux CLI Basics & Navigation
+- [x] Operating System Fundamentals & Linux Distributions
 - [ ] File Management & Manipulation
 - [ ] System Security & Permissions
 - [ ] Archiving & Compression
