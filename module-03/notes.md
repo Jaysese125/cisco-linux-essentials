@@ -35,6 +35,45 @@
 - the kernel doesn't differentiate between a user-facing application, a network service that talks to a remote computer, or an internal task. From this, we get an abstraction called a Process.
 - A process is just one task that is loaded and tracked by the kernel. An application may even need multiple processes to function, so the kernel takes care of running the processes, starting and stopping them as requested, and handing out system resources.
 
+#### 3.2.1 Major Applications
+- the Linux kernel can run a wide variety of software across many hardware platforms. A computer can act as a server, which means it primarily handles data on others' behalf, or as a desktop, which means a user interface interacts with it directly.
+- the machine can run software or be used as a development machine in the process of creating software. A machine can even adopt multiple roles as Linux makes no distinction; it's merely a matter of configuring which applications run.
+- One resuliting advantage is that Linux can simulate almost all aspects of a production environment, from development to testing, to verification on scaled-down hardware, which saves costs and time.
+- A Linux administrator could run the same server applications on a desktop or inexpensive virtual server that are run by large internet service providers. Of course, a desktop would not be able to handle the same volume as a major provider would, but almost any configuration can be simulated without needing powerful hardware or server licensing.
+- Linux software generally falls into one of three categories:
+  - **server applications**
+    - software that has no direct interaction with the monitor and keyboard of the machine it runs on. Its purpose is to serve information to other computers, called clients. sometimes server applications may not talk to other computers but only sit there and crunch data.
+  - **Desktop Applications**
+    - Web browsers, text editors, music players, or other applications with which users interact directly.
+    - In many cases, such as a web browser, the application is talking to a server on the other end and interpreting the data. This is the "client" side of a client/server application.
+  - **tools**
+    - A loose category of software that exists to make it easier to manage computer systems. tools can help configure displays, provide a Linux shell that users type commands into, or even more sophisticated tools, called compilers, that convert source code to application programs that the computer can execute.
+- the availability of applications varies depending on the distribution. Often application vendors choose a subset of distributions to support. Different distributions have different versions of key libraries, and it is difficult for a company to support all these different versions. some applications, however, like Firefox and LibreOffice are widely supported and available for all major distributions.
+- the Linux community has come up with lots of creative solutions for both desktop and server applications. These applications, many of which make up the backbone of the Internet, are critical to understanding, and utilizing the power of Linux.
+- Most computing tasks can be accomplished by any number of applications in Linux. There are many web browsers, web servers, database servers, and text editors from which to choose.
+- Evaluating application software is an important skill to be learned by the aspiring Linux administrator. Determining requirements for performance, stability, and cost are just some of the considerations needed for a comprehensive analysis.
+
+#### 3.2.2 Server Applications
+- Linux excels at running server applications because of its reliability and efficiency. The ability to optimize server operating systems with just needed components allows administrators to do more with less, a feature loved by startups and large enterprise alike.
+
+##### 3.2.2.1 Web servers
+- One of the early uses of Linux was for web servers. A web server hosts content for web pages, which are viewed by a web browser using the hypertext transfer protocol (HTTP) or its encrypted flavor, HTTPS.
+- the web page itself can either be static or dynamic. when the web browser requests a static page, the web server sends the file as it appears on disk. In the case of a dynamic site, the request is sent by the web server to an application, which generates the content.
+- WordPress is one popular example. Users can develop content through their browser in the WordPress application, and the software turns it into a fully functional dynamic website.
+- Apache is the dominant web server in use today. Apache was originally a standalone project, but the group has since formed the Apache Software Foundation and maintains over a hundred open source software projects.
+- Apache HTTPD is the daemon, or server application program, that "serves" web page requests.
+- Another web server is NGINX, which based out of Russia. It focuses on performance by making use of more modern UNIX kernels and only does a subset of what Apache can do.
+- "Over 65% of websites are powered by either NGINX or Apache."
+
+##### 3.2.2.2 Private cloud servers
+- As individuals, organizations, and companies start to move their data to the cloud, there is a growing demand for private cloud server software that can be deployed and administered internally.
+- The ownCloud project was launched in 2010 by Frank Karlitschek to provide software to store, sync and share data from private cloud servers.
+- It is available in a standard open source GNU AGPLv3 license and an enterprise version that carries a commercial license.
+- The Nextcloud project was forked from ownCloud in 2016 by Karlitschek and has been growing steadily since then.
+- It is provided under a GNU AGPLv3 and aims for "an open, transparent development process."
+- Both projects focus on providing private cloud software that meets the needs of both large and small organizations that require security, privacy, and regulatory compliance.
+- While several other projects aim to serve the same users, these two are by far the largest in terms of both deployment and project members.
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -53,6 +92,24 @@
 
 ### Image 5: Multitasking & Processes
 ![Handwritten notes on multitasking and processes](./assets/handwritten-notes-5.jpg)
+
+### Image 6: Major Applications
+![Handwritten notes on major applications](./assets/handwritten-notes-6.jpg)
+
+### Image 7: Application Categories
+![Handwritten notes on application categories](./assets/handwritten-notes-7.jpg)
+
+### Image 8: Application Availability & Evaluation
+![Handwritten notes on application availability and evaluation](./assets/handwritten-notes-8.jpg)
+
+### Image 9: Server Applications & Web Servers
+![Handwritten notes on server applications and web servers](./assets/handwritten-notes-9.jpg)
+
+### Image 10: Apache & NGINX
+![Handwritten notes on Apache and NGINX](./assets/handwritten-notes-10.jpg)
+
+### Image 11: Private Cloud Servers
+![Handwritten notes on private cloud servers](./assets/handwritten-notes-11.jpg)
 
 ---
 
