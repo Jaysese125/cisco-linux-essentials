@@ -93,6 +93,25 @@
 - in the closed source world, Microsoft Exchange is shipped primarily as a software package/suite that includes all the necessary or approved components, all from microsoft, so there are few if any options to make individual selections.
 - in the open source world, many options can be modularly included or swapped out for package components, and indeed some software packages or suites are just a well-packaged set of otherwise individual components all harmoniously working together.
 
+##### 3.2.2.5 File sharing
+- For windows-centric file sharing, samba is the clear winner. samba allows a Linux machine to look and behave like a windows machine so that it can share files and participate in a windows domain. samba implements the server components, such as making files available for sharing and certain windows server roles, and also the client end so that a Linux machine may consume a windows file share.
+- The netatalk project lets a Linux machine perform as an Apple Macintosh file server. the native file sharing protocol for UNIX/Linux is called the Network File System (NFS).
+- NFS is usually part of the kernel which means that a remote file system can be mounted (made accessible) just like a regular disk, making file access transparent to other applications.
+- As computer network becomes more substantial, the need for a directory increases. One of the oldest network directory systems is the Domain Name System (DNS). it is used to convert a name like https://www.icann.org/ to an IP address like 192.0.43.7, which is a unique identifier of a computer on the internet. DNS also holds global information like the address of the MTA for a given domain name.
+- An organization may want to run their own DNS server to host their public facing names, and also to serve as an internal directory of services. the Internet Software Consortium maintains the most popular DNS server, simply called bind after the name of the process that runs the service.
+- the DNS is focused mainly on computer names and IP addresses and is not easily searchable. Other directories have sprung up to store information such as user accounts and security roles.
+- The lightweight Directory Access Protocol (LDAP) is one common directory system which also powers Microsoft's Active directory. In LDAP, an object is stored in a tree, and the position of that object on the tree can be used to derive information about the object and what it stores.
+- For example, a Linux administrator may be stored in a branch of tree called "IT Department," which is under a branch called "Operations." thus one can find all the technical staff by searching under the "IT Department" branch. OpenLDAP is the dominant program used in Linux infrastructure.
+- One final piece of network infrastructure to discuss here is called the Dynamic Host Configuration Protocol (DHCP). when a computer boots up, it needs an IP address for the local network so it can be uniquely identified.
+- DHCP's job is to listen for requests and to assign a free address from the DHCP pool. the internet system consortium (known until January 2004 as the Internet software consortium) also maintains the ISC DHCP server, which is the most common open source DHCP server.
+
+#### 3.2.3 Desktop Applications
+- the Linux ecosystem has a wide variety of desktop applications. There are games, productivity applications, creative tools, web browser and more.
+
+##### 3.2.3.1 Email
+- the mozilla foundation came out with thunderbird, a full-featured desktop email client. thunderbird connects to a POP or IMAP server, displays email locally, and sends email through an external SMTP server.
+- Other notable email clients are Evolution and Kmail which are the GNOME and KDE projects email clients.
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -138,6 +157,15 @@
 
 ### Image 14: Email Servers & Open Source
 ![Handwritten notes on email servers and open source](./assets/handwritten-notes-14.jpg)
+
+### Image 15: File Sharing, DNS, LDAP & DHCP
+![Handwritten notes on file sharing, DNS, LDAP and DHCP](./assets/handwritten-notes-15.jpg)
+
+### Image 16: DNS, LDAP & OpenLDAP
+![Handwritten notes on DNS, LDAP and OpenLDAP](./assets/handwritten-notes-16.jpg)
+
+### Image 17: DHCP & Desktop Applications
+![Handwritten notes on DHCP and desktop applications](./assets/handwritten-notes-17.jpg)
 
 ---
 
