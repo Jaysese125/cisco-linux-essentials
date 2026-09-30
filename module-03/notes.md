@@ -74,6 +74,25 @@
 - Both projects focus on providing private cloud software that meets the needs of both large and small organizations that require security, privacy, and regulatory compliance.
 - While several other projects aim to serve the same users, these two are by far the largest in terms of both deployment and project members.
 
+##### 3.2.2.3 Database servers
+- Database server applications form the backbone of most online services. Dynamic web applications pull data from and write data to these applications, for example, a web program for tracking online students might consist of a front-end server that presents a web form. when data is entered into the form, it is written to a database application such as MariaDB, when instructors need to access student information, the web application queries the database and returns the results through the web application.
+- MariaDB is a community-developed fork of the MySQL relational database management system. It is just one of many database servers used for web development as different requirements dictate the best application for the required tasks.
+- A database stores information and also allows for easy retrieval and querying. some other popular databases are Firebird and PostgreSQL. You might enter raw sales figures into the database and then use a language called Structured Query Language (SQL) to aggregate sales by product and date to produce a report.
+
+##### 3.2.2.4 Email servers
+- Email has always been a widespread use for Linux servers. when discussing email servers, it is always helpful to look at the 3 different tasks required to get email between people:
+  - **Mail Transfer Agent (MTA)**
+    - The most well known MTA (software that is used to transfer electronic messages to other systems) is Sendmail. Postfix is another popular one and aims to be simpler and more secure than sendmail.
+  - **Mail Delivery Agent (MDA)**
+    - Also called the local delivery agent, it takes care of storing the email in the user's mailbox. Usually invoked from the final MTA in the chain.
+  - **POP/IMAP server**
+    - The post office Protocol (POP) and internet message access Protocol (IMAP) are two communication protocols that let an email client running on your computer talk to a remote server to pick up the email.
+    - Dovecot is a popular POP/IMAP server owing to its ease of use and low maintenance.
+- Cyrus IMAP is another option. some POP/IMAP servers implement their own mail database format for performance and invoke the MDA if the custom database is desired. People using standard file formats (such as all the emails ie in one text file) can choose any MDA.
+- There are several significant differences between the closed source and open source software worlds, one being that of inclusion of other projects as components to a projector package.
+- in the closed source world, Microsoft Exchange is shipped primarily as a software package/suite that includes all the necessary or approved components, all from microsoft, so there are few if any options to make individual selections.
+- in the open source world, many options can be modularly included or swapped out for package components, and indeed some software packages or suites are just a well-packaged set of otherwise individual components all harmoniously working together.
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -110,6 +129,15 @@
 
 ### Image 11: Private Cloud Servers
 ![Handwritten notes on private cloud servers](./assets/handwritten-notes-11.jpg)
+
+### Image 12: Database Servers
+![Handwritten notes on database servers](./assets/handwritten-notes-12.jpg)
+
+### Image 13: Email Servers
+![Handwritten notes on email servers](./assets/handwritten-notes-13.jpg)
+
+### Image 14: Email Servers & Open Source
+![Handwritten notes on email servers and open source](./assets/handwritten-notes-14.jpg)
 
 ---
 
