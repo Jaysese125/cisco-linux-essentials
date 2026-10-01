@@ -112,6 +112,26 @@
 - the mozilla foundation came out with thunderbird, a full-featured desktop email client. thunderbird connects to a POP or IMAP server, displays email locally, and sends email through an external SMTP server.
 - Other notable email clients are Evolution and Kmail which are the GNOME and KDE projects email clients.
 
+##### 3.2.3.2 Creative
+- standardization through POP and IMAP and local email formats means that it's easy to switch between email clients without losing data.
+- For creative types, there is Blender, GIMP (GNU Image Manipulation Program), and Audacity which handle 3D movie creation, 2D image manipulation, and audio editing respectively. They have had various degrees of success in professional markets. Blender is used for everything from independent films to Hollywood movies, for example.
+- GIMP supports high quality photo manipulation, original artwork creation, graphic design elements, and is extensible through scripting in multiple languages.
+- Audacity is a free and open source audio editing tool that is available on multiple operating systems.
+
+##### 3.2.3.3 Productivity
+- Use of common open source applications in presentations and projects is one way to strengthen linux skills. the basic productivity applications, such as a word processor, spreadsheet, and presentation package are valuable assets.
+- collectively they're known as an office suite, primarily due to Microsoft Office, the dominant player in the market.
+- LibreOffice is a fork of the OpenOffice (sometimes called OpenOffice.org) application suite. Both offer a full office suite, including tools that strive for compatibility with Microsoft Office in both features and file formats.
+- The spreadsheet editor of LibreOffice, LibreOffice Calc, is not limited to rows and columns of numbers.
+- The numbers can be the source of a graph, and formulas can be written to calculate values based on information, such as pulling together interest rates and loan amounts to help compare different borrowing options.
+- Using LibreOffice Writer, the document editor of LibreOffice, a document can contain text, graphics, data tables, and much more. you can link documents and spreadsheets together, for example, so that you can summarize data in a written form and know that any changes to the spreadsheet will be reflected in the document.
+- LibreOffice can also work with other file formats, such as Microsoft Office or Adobe Portable Document Format (PDF) files. Additionally, through the use of extensions, LibreOffice can be made to integrate with wiki software to give you a powerful intranet solution.
+
+##### 3.2.3.4 Web Browsers
+- Linux is a first class citizen for the Mozilla Firefox and Google Chrome browsers. Both are open source web browsers that are fast, feature-rich, and have excellent support for web developers.
+- These packages are an excellent example of how competition helps to drive open source development - improvements made to one browser spur the development of the other browser.
+- As a result, the internet has two excellent browsers that push the limits of what can be done on the web, and work across a variety of platforms. using a browser, while second nature for many, can lead to privacy concerns. By understanding and modifying the configuration options, one can limit the amount of information they share while searching the web and saving content.
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -166,6 +186,15 @@
 
 ### Image 17: DHCP & Desktop Applications
 ![Handwritten notes on DHCP and desktop applications](./assets/handwritten-notes-17.jpg)
+
+### Image 18: Creative Applications
+![Handwritten notes on creative applications](./assets/handwritten-notes-18.jpg)
+
+### Image 19: Productivity Applications
+![Handwritten notes on productivity applications](./assets/handwritten-notes-19.jpg)
+
+### Image 20: Web Browsers
+![Handwritten notes on web browsers](./assets/handwritten-notes-20.jpg)
 
 ---
 
