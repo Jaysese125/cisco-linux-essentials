@@ -132,6 +132,24 @@
 - These packages are an excellent example of how competition helps to drive open source development - improvements made to one browser spur the development of the other browser.
 - As a result, the internet has two excellent browsers that push the limits of what can be done on the web, and work across a variety of platforms. using a browser, while second nature for many, can lead to privacy concerns. By understanding and modifying the configuration options, one can limit the amount of information they share while searching the web and saving content.
 
+### 3.3 Console Tools
+- Historically, the development of UNIX shows considerable overlap between the skills of software development and systems administration. the tools for managing systems have features of computer languages such as loops (which allow commands to be carried out repeatedly), and some computer programming languages are used extensively in automating systems administration tasks. Thus, one should consider these skills complementary, and at least a basic familiarity with programming is required for competent systems administrators.
+
+#### 3.3.1 Shells
+- At the basic level, users interact with a linux system through a shell whether connecting to the system remotely or from an attached keyboard. the shell's job is to accept commands, like file manipulations and starting applications, and to pass those to the linux kernel for execution.
+- the linux shell provides a rich language for iterating over files and customizing the environment, all without leaving the shell. For example, it is possible to write a single command line that find files with contents matching a specific pattern, extracts useful information from the file, then copies the new information to a new file.
+- linux offers a variety of shells to choose from, mostly differing in how and what can be customized, and the syntax of the built-in scripting language. the two main families are the Bourne shell and the C shell. the Bourne shell was named after its creator Stephen Bourne of Bell Labs. the C shell was so named because its syntax borrows heavily from the C language. As both these shells were invented in the 1970s, there are more modern versions, the Bourne Again Shell (Bash) and the tcsh (pronounced tee-cee-shell). Bash is the default shell on most systems, though tcsh is also typically available.
+- Programmers have taken favourite features from Bash and tcsh and made other shells, such as the Korn shell (ksh) and the Z shell (zsh). the choice of shells is mostly a personal one; users who are comfortable with Bash can operate effectively on most linux systems. other shells may offer features that increase productivity in specific use cases.
+
+#### 3.3.2 Text Editors
+- Most linux systems provide a choice of text editors which are commonly used at the console to edit configuration files. the two main applications are Vi (or the more modern Vim) and Emacs.
+- both are remarkably power tools to edit text files; they differ in the format of the commands and how plugins are written for them. Plugins can be anything from syntax highlighting of software projects to integrated calendars.
+- both Vi and Emacs are complex and have a steep learning curve, which is not helpful for simple editing of a small text file. therefore, Pico and nano are available on most systems and provide very basic text editing.
+
+> **Consider this**
+> the nano editor was developed as a completely open source editor that is loosely based on Pico, as the license for Pico is not an open source license and forbids making changes and altering it.
+> while nano is simple and easy to use, it doesn't offer the extensive suite of more advanced editing and key binding features that an editor like vi does. Administrators should strive to gain some basic familiarity with vi, though, because it is available on almost every linux system in existence.
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -195,6 +213,15 @@
 
 ### Image 20: Web Browsers
 ![Handwritten notes on web browsers](./assets/handwritten-notes-20.jpg)
+
+### Image 21: Console Tools & Shells
+![Handwritten notes on console tools and shells](./assets/handwritten-notes-21.jpg)
+
+### Image 22: Shells & Text Editors
+![Handwritten notes on shells and text editors](./assets/handwritten-notes-22.jpg)
+
+### Image 23: Text Editors & Nano
+![Handwritten notes on text editors and nano](./assets/handwritten-notes-23.jpg)
 
 ---
 
