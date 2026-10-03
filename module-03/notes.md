@@ -150,6 +150,26 @@
 > the nano editor was developed as a completely open source editor that is loosely based on Pico, as the license for Pico is not an open source license and forbids making changes and altering it.
 > while nano is simple and easy to use, it doesn't offer the extensive suite of more advanced editing and key binding features that an editor like vi does. Administrators should strive to gain some basic familiarity with vi, though, because it is available on almost every linux system in existence.
 
+### 3.4 Package Management
+
+#### 3.4.1 Debian Package Management
+- The Debian distribution, and its derivatives such as Ubuntu and Mint, use the Debian Package Management System. At the heart of Debian Package management are software packages that are distributed as files ending in the .deb extension.
+- the lowest-level tool for managing these files in the dpkg command. This command can be tricky for novice Linux users, so the Advanced Package Tool, apt-get (a front-end program to the dpkg tool), makes management of packages easier.
+- Additional command line tools which serve as front-ends to dpkg include aptitude and GUI front-ends like synaptic and software center.
+
+#### 3.4.2 RPM Package Management
+- the linux standards base, which is a linux foundation project, is designed to specify (through a consensus) a set of standards that increase the compatibility between conforming Linux systems.
+- According to the Linux Standards Base, the standard package management system is RPM.
+- RPM makes use of an .rpm file for each software package. This system is what distributions derived from Red Hat, including CentOS and Fedora, use to manage software. several other distributions that are not Red Hat derived, such as SUSE, openSUSE, and Arch, also use RPM.
+- Like the Debian system, RPM Package Management systems track dependencies between packages. Tracking dependencies ensures that when a package is installed, the system also installs any packages needed by that package to function correctly. Dependencies also ensure that software updates and removals are performed properly.
+- the back end tool most commonly used for RPM package Management is the rpm command. While the rpm command can install, update, query and remove packages, the command line front-end tools such as yum and updater outsource the process of resolving dependency issues.
+- Note: A back end program or application either interacts directly with a front-end program or is 'called' by an intermediate program. Back end programs would not interact directly with the user. Basically, there are programs that interact with people (front end) and programs that interact with other programs (back-end).
+- There are also GUI-based front-end tools such as yumex and GNOME PackageKit that also make RPM package management easier.
+- Some RPM-based distributions have implemented the Zypp (or libzypp) package management style, mostly openSUSE and SUSE Linux Enterprise, but mobile distributions Meego, Tizen and Sailfish as well.
+- The zypper command is the basis of the Zypp method, and it features short and long English commands to perform functions, such as zypper in packagename which installs a package including any needed dependencies.
+- Most of the commands associated with package management require root privileges. The rule of thumb is that if a command affects the state of a package, administrative access is required.
+- In other words, a regular user can perform a query or a search, but to add, update, or remove a package requires the command to be executed as the root user.
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -223,6 +243,15 @@
 ### Image 23: Text Editors & Nano
 ![Handwritten notes on text editors and nano](./assets/handwritten-notes-23.jpg)
 
+### Image 24: Debian Package Management & RPM
+![Handwritten notes on Debian package management and RPM](./assets/handwritten-notes-24.jpg)
+
+### Image 25: RPM Package Management & Front-End Tools
+![Handwritten notes on RPM package management and front-end tools](./assets/handwritten-notes-25.jpg)
+
+### Image 26: Zypp Package Management & Root Privileges
+![Handwritten notes on Zypp package management and root privileges](./assets/handwritten-notes-26.jpg)
+
 ---
 
 ## 🆕 Ongoing Learning & Additions
@@ -235,6 +264,11 @@
 | `ls` | List directory contents | `ls -la` |
 | `cd` | Change directory | `cd /home/sysadmin` |
 | `pwd` | Print working directory | `pwd` |
+| `dpkg` | Debian package manager | `dpkg -i package.deb` |
+| `apt-get` | Advanced Package Tool | `sudo apt-get install package` |
+| `rpm` | RPM package manager | `rpm -ivh package.rpm` |
+| `yum` | Yellowdog Updater Modified | `sudo yum install package` |
+| `zypper` | Zypp package manager | `sudo zypper in package` |
 
 ---
 
