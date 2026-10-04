@@ -170,6 +170,20 @@
 - Most of the commands associated with package management require root privileges. The rule of thumb is that if a command affects the state of a package, administrative access is required.
 - In other words, a regular user can perform a query or a search, but to add, update, or remove a package requires the command to be executed as the root user.
 
+### 3.5 Development Languages
+- It should come as no surprise that as software built on contributions from programmers, Linux has excellent support for software development. The shells are built to be programmable, and there are powerful editors included on every system, There are also many development tools available, and many modern programming languages treat Linux as a first-class citizen.
+- Computer programming languages provide a way for a programmer to enter instructions in a more human readable format, and for those instructions to eventually becomes translated into something the computer understands.
+- languages fall into one of two camps: interpreted or compiled. An interpreted language translates the written code into computer code as the program runs, and a compiled language is translated all at once.
+- Unix itself was written in a compiled language called C. the main benefit of C is that the language itself maps closely to the generated machine code so that a skilled programmer can write code that is small and efficient. when computer memory was measured in kilobytes, this was very important. Even with large memory sizes today, C is still helpful for writing code that must run fast, such as an operating system.
+- C has been extended over the years. there is C++, which adds object support to C (a different style of programing), and Objective C that took another direction and is in heavy use in Apple products.
+- The Java language puts a different spin on the compiled approach. Instead of compiling to machine code, Java first imagines a hypothetical CPU called the Java Virtual Machine (JVM) and then compiles all the code to that. Each host computer runs JVM software to translate the JVM instructions (called bytecode) into native instructions.
+- The additional translation with Java might make you think it would be slow. However, the JVM is relatively simple so it can be implemented quickly and reliably on anything from a powerful computer to a low power device that connects to a television. A compiled Java file can also be run on any computer implementing the JVM.
+- Another benefit of compiling to an intermediate target is that the JVM can provide services to the application that usually wouldn't be available on a CPU.
+- Allocating memory to a program is a complex problem, but it's built into the JVM. As a result, JVM makers can focus their improvements on the JVM as a whole, so any progress they make is instantly available to applications.
+- Interpreted languages, on the other hand, are translated to machine code as they execute. The extra computer power spent doing this can often be recouped by the increased productivity the programmer gains by not having to stop working to compile.
+- Interpreted languages also tend to offer more features than compiled languages, meaning that often less code is needed. The language interpreter itself is usually written in another language such as C, and sometimes even Java! This means that an interpreted language is being run on the JVM, which is translated at run time into actual machine code.
+- Javascript is a high level interpreted programming language that is one of the core technologies on the world wide web.
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -251,6 +265,15 @@
 
 ### Image 26: Zypp Package Management & Root Privileges
 ![Handwritten notes on Zypp package management and root privileges](./assets/handwritten-notes-26.jpg)
+
+### Image 27: Development Languages & C
+![Handwritten notes on development languages and C](./assets/handwritten-notes-27.jpg)
+
+### Image 28: C++, Java, and the JVM
+![Handwritten notes on C++, Java, and the JVM](./assets/handwritten-notes-28.jpg)
+
+### Image 29: Interpreted Languages & JavaScript
+![Handwritten notes on interpreted languages and JavaScript](./assets/handwritten-notes-29.jpg)
 
 ---
 
