@@ -183,6 +183,19 @@
 - Interpreted languages, on the other hand, are translated to machine code as they execute. The extra computer power spent doing this can often be recouped by the increased productivity the programmer gains by not having to stop working to compile.
 - Interpreted languages also tend to offer more features than compiled languages, meaning that often less code is needed. The language interpreter itself is usually written in another language such as C, and sometimes even Java! This means that an interpreted language is being run on the JVM, which is translated at run time into actual machine code.
 - Javascript is a high level interpreted programming language that is one of the core technologies on the world wide web.
+- It is similar to but fundamentally different from Java, which is a completely object-oriented programming language owned by Oracle. Javascript is a cross-platform scripting language for adding interactive elements to web pages, that is in wide use across the internet. By using Javascript libraries, web programmers can add everything from simple animations to complex server-side applications for internet users. Javascript is continuously evolving to meet the functionality and security needs of internet users and is capable of being released under a GNU GPL license.
+
+> **Consider this:**
+> the term object-oriented refer to programming that abstract complex actions and processes so that the end user only deals with basic tasks. to visualize this concept, think of a machine that performs a complex set of tasks by simply pushing a button.
+
+- Perl is an interpreted language. Perl was originally developed to perform text manipulation. Over the years, it gained favor with systems administrators and continues to be improved and used in everything from automation to building web applications.
+- PHP is a language that was initially built to create dynamic web pages. A PHP file is read by a web server such as Apache. Special tags in the file indicate that parts of the code should be interpreted as instructions. the web server pulls all the different parts of the file together and sends it to the web browser. PHP's main advantages are that it is easy to learn and available on almost any system. Because of this, many popular projects are built on PHP. notable examples include wordpress (for blogging), cacti (for monitoring), and even parts of facebook.
+- Ruby is another language that was influenced by Perl and shell, along with many other languages. It makes complex programming tasks relatively easy, and with the inclusion of the Ruby on rails framework, is a popular choice for building complex web applications.
+- Ruby is also the language that powers many of the leading automation tools like chef and puppet, which makes processing abilities and is a favorite in automating managing a large number of linux systems much simpler.
+- Python is another scripting language that is is general use. much like Ruby It makes complex tasks easier and has a framework called Django that makes building web applications very easy. Python has excellent statistical processing abilities and is a favorite in academia.
+- A computer programming language is just a tool that makes it easier to tell the computer what you want it to do. A library bundles common tasks into a distinct packages that can be used by the developer.
+- ImageMagick is one such library that lets programmers manipulate images in code. Image Magick also ships with some command line tools that enable programmers to process images from a shell and take advantage of the scripting capabilities there.
+- OpenSSL is a cryptographic library that is used in everything from web servers to the command line. It provides a standard interface for adding cryptography into a perl script for example. At much lower level is the c library. the c library provides a basic set of functions for reading and writing to files and displays, and used by applications and other languages alike.
 
 ---
 
@@ -274,6 +287,15 @@
 
 ### Image 29: Interpreted Languages & JavaScript
 ![Handwritten notes on interpreted languages and JavaScript](./assets/handwritten-notes-29.jpg)
+
+### Image 30: JavaScript, Perl, and PHP
+![Handwritten notes on JavaScript, Perl, and PHP](./assets/handwritten-notes-30.jpg)
+
+### Image 31: PHP, Ruby, and Automation
+![Handwritten notes on PHP, Ruby, and automation](./assets/handwritten-notes-31.jpg)
+
+### Image 32: Python, ImageMagick, and OpenSSL
+![Handwritten notes on Python, ImageMagick, and OpenSSL](./assets/handwritten-notes-32.jpg)
 
 ---
 
