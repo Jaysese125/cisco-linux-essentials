@@ -197,6 +197,20 @@
 - ImageMagick is one such library that lets programmers manipulate images in code. Image Magick also ships with some command line tools that enable programmers to process images from a shell and take advantage of the scripting capabilities there.
 - OpenSSL is a cryptographic library that is used in everything from web servers to the command line. It provides a standard interface for adding cryptography into a perl script for example. At much lower level is the c library. the c library provides a basic set of functions for reading and writing to files and displays, and used by applications and other languages alike.
 
+### 3.6 Security
+- Administrators and computer users are increasingly aware of privacy concerns in both their personal and professional lives. High-profile data breaches have been in the news all too often recently, and the cost of these break-ins can reach into the millions of dollars for the institutions that fall victim to hackers and ransomware attacks. Many times the cause of these breaches is simply human error such as opening a suspicious email or entering a password into a phony login page.
+- cookies are the primary mechanism that websites use to track you. sometimes this tracking is good, even as to keep track of what is in your shopping cart or to keep you logged in when you return to the site.
+- As you browse the web, a web server can send back the cookie, which is a small piece of text, along with the web page. Your browser stores this information and sends it back with every request to the same site. cookies are normally only sent back to the site they originated from, so a cookie from example.com wouldn't be sent to example.org.
+- However, many sites have embedded scripts that come from third parties, such as a banner advertisement or google analytics pixel. If both example.com and example.org have a tracking pixel, such as one from an advertiser, then the same cookie will be sent when browsing both sites, the advertiser then knows that you have visited both example.com and example.org.
+- With a broad enough reach, such as placement on social network sites with "Like" buttons and such, a website can gain an understanding of which websites you frequent and figure out your interests and browsing habits.
+- there are various strategies for dealing with this. One is to ignore it. the other is to limit the tracking pixels you accept, either by blocking them entirely or clearing them out periodically.
+- Browsers typically offer cookie-related settings; users can opt to have the browser tell the site not to track. This voluntary tag is sent in the request, and some site will honor it. The browser can also be set never to remember third-party cookies and remove regular cookies (such as from the site you are browsing) after being closed.
+- tweaking privacy settings can make you more anonymous on the internet, but it can also cause problems with some sites that depend on third-party cookies. If this happens, you might have to explicitly permit some cookies to be saved.
+- Browsers also offer a private or incognito mode where cookies and tracking pixels are deleted upon exiting the window. This mode can be helpful if you would like to search for something without letting other websites know what you are looking for.
+
+#### 3.6.1 Password issues
+- Good password management is essential to security in any computing environment. the linux systems administrator is often the person responsible for setting and enforcing password policies for users at all levels. The most privileged user on any linux system is root, this account is the primary administrator and is created when the operating system is installed. often administrators will disable root access as the first line of defense against intrusion since computer hackers will try to gain root access in order to take control of the system.
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -296,6 +310,15 @@
 
 ### Image 32: Python, ImageMagick, and OpenSSL
 ![Handwritten notes on Python, ImageMagick, and OpenSSL](./assets/handwritten-notes-32.jpg)
+
+### Image 33: Security & Cookies
+![Handwritten notes on security and cookies](./assets/handwritten-notes-33.jpg)
+
+### Image 34: Third-Party Cookies & Tracking
+![Handwritten notes on third-party cookies and tracking](./assets/handwritten-notes-34.jpg)
+
+### Image 35: Privacy Settings & Password Issues
+![Handwritten notes on privacy settings and password issues](./assets/handwritten-notes-35.jpg)
 
 ---
 
