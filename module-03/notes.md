@@ -210,6 +210,20 @@
 
 #### 3.6.1 Password issues
 - Good password management is essential to security in any computing environment. the linux systems administrator is often the person responsible for setting and enforcing password policies for users at all levels. The most privileged user on any linux system is root, this account is the primary administrator and is created when the operating system is installed. often administrators will disable root access as the first line of defense against intrusion since computer hackers will try to gain root access in order to take control of the system.
+- there are many levels of access and various means of password management on a linux system. when users are created, they are given different login permissions depending on what groups they are assigned to. For example, administrators can create and manage users while regular users cannot. services that run on systems such as databases can also have login permissions with their own password and privileges. Additionally, there are specific passwords for accessing systems remotely through SSH, FTP, or other management programs.
+- Managing all these accounts, and their accompanying passwords is a complicated and necessary part of the systems administrator role. Passwords need to be complex enough not to be easily guessed by hackers, yet easy to remember for users. Increasingly users and administrators are turning to password manager programs to store login credentials in encrypted form. Another trend is two-factor authentication (2FA), a technique where a password is supplemented by a second "factor", often a passcode sent to the user's phone or other devices. keeping up with current security trends, while ensuring authorized users' ease of access, is an ongoing challenge that must be met.
+
+#### 3.6.2 Protecting yourself
+- As you browse the web, you leave a digital footprint, much of this info goes ignored; some of it is gathered to collect statistics for advertising, and some can be used for malicious purposes.
+- the easiest thing you can do is to use a good, unique password everywhere you go, especially on your local machine. A good password is at least 10 characters long and contains a mixture of numbers, letters (both upper and lower case) and special symbols.
+- Use a password manager like KeePassX to generate passwords, and then you only need to have a login password to your machine and a password to open up your Keepass file.
+- Also limit the information you give to sites to only what is needed. While giving your mother's maiden name and birthdate might help unlock your social network login if you lose your password, the same information can be used to impersonate you to your banks.
+- After that, make a point of checking for updates periodically. the system can be configured to check for updates on a regular basis. If there are security-related upgrades, you may be prompted immediately to install them.
+- Finally, you should protect your computer from accepting incoming connections. A firewall is a device that filters network traffic, and linux has one built-in. If you are using Ubuntu, then the gufw is a graphical interface to Ubuntu's uncomplicated firewall (ufw).
+- Under the hood, you are using iptables which is the built-in firewall system. instead of entering complicated iptables commands, you see a GUI. while this GUI lets you build an effective policy for a desktop, it barely scratches the surface of what iptables can do.
+
+#### 3.6.3 Privacy tools
+- the use of modern privacy tools, both at the server and user level, can help prevent system intrusions and unauthorized access to data.
 
 ---
 
@@ -319,6 +333,15 @@
 
 ### Image 35: Privacy Settings & Password Issues
 ![Handwritten notes on privacy settings and password issues](./assets/handwritten-notes-35.jpg)
+
+### Image 36: Password Management & 2FA
+![Handwritten notes on password management and 2FA](./assets/handwritten-notes-36.jpg)
+
+### Image 37: Protecting Yourself & Passwords
+![Handwritten notes on protecting yourself and passwords](./assets/handwritten-notes-37.jpg)
+
+### Image 38: Updates, Firewalls & Privacy Tools
+![Handwritten notes on updates, firewalls and privacy tools](./assets/handwritten-notes-38.jpg)
 
 ---
 
