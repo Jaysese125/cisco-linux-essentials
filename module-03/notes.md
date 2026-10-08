@@ -224,6 +224,21 @@
 
 #### 3.6.3 Privacy tools
 - the use of modern privacy tools, both at the server and user level, can help prevent system intrusions and unauthorized access to data.
+- the good news is that linux is by default one of the most secure operating systems ever created. Many of the exploits that plague other operating systems simply won't work on linux due to the underlying architecture. however, there are still many known weaknesses that hackers can take advantage of so the proactive systems administrator is wise to deploy privacy tools that protect their users as well as the systems they use.
+- Encryption is probably the best-known and most widely-deployed privacy tool in use today. Administrators deploy encryption with authentication keys on almost every system that communicates with the outside world.
+- one well-known example is the HyperText Transfer Protocol Secure (HTTPS) standard used on web servers to ensure that data transmitted between users and online resources cannot be intercepted as it travels on the open internet.
+- Virtual Private Networks (VPN) have been in use by companies to connect their remote servers and employees for many years. Now they are gaining popularity amongst ordinary users looking to protect their privacy online. They work by creating an encrypted channel of communication between two systems, so the data transmitted between them is scrambled by an algorithm only the systems know.
+- the tor project has long been involved in creating privacy tools like its Tor Browser that works by relaying internet requests through a network of servers that prevents websites and others from learning the identity of person making the request.
+- These tools are constantly evolving and choosing which ones are appropriate for the users and systems involved is an essential part of the systems administrator's role.
+
+### 3.7 The Cloud
+- No doubt you've heard of the cloud, whether you're using Google Docs for your homework or storing music and photos on iCloud, you probably have at least some of your digital content hosted on a cloud server somewhere.
+- Cloud computing has revolutionized the way we access technology. As internet connectivity and speeds have increased, it's become easier to move computing resources to remote locations where content can be accessed, manipulated and shared around the globe. Organizations are increasingly looking at the cloud as essential to their businesses and operations.
+- The migration of an organization's IT applications and processes to cloud services, known as cloud adoption, is rapidly becoming a strategic business decision for many. With cloud adoption rising significantly all over the globe, cloud computing is not the catchphrase that it once was. Cloud computing is seen as one of the major disruptive technologies for the coming decade which will significantly transform businesses, economies, and lives globally.
+- Physically, a cloud can be described as computing resources from one or many off-site data centers which can be accessed over the internet.
+- The cloud builds on the benefits of a data center and provides computing solutions to organizations who need to store and process data, and it allows them to delegate management of IT infrastructure to a third-party.
+- The data and resources that organizations store in the cloud can include data, servers, storage, application hosting, analytics and a myriad of other services.
+- A cloud deployment model provides a basis for how cloud infrastructure is built, managed, and accessed.
 
 ---
 
@@ -342,6 +357,15 @@
 
 ### Image 38: Updates, Firewalls & Privacy Tools
 ![Handwritten notes on updates, firewalls and privacy tools](./assets/handwritten-notes-38.jpg)
+
+### Image 39: Encryption, HTTPS, and VPNs
+![Handwritten notes on encryption, HTTPS, and VPNs](./assets/handwritten-notes-39.jpg)
+
+### Image 40: Tor Browser & The Cloud
+![Handwritten notes on Tor Browser and the Cloud](./assets/handwritten-notes-40.jpg)
+
+### Image 41: Cloud Adoption & Deployment Models
+![Handwritten notes on cloud adoption and deployment models](./assets/handwritten-notes-41.jpg)
 
 ---
 
