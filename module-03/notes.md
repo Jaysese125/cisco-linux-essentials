@@ -239,6 +239,23 @@
 - The cloud builds on the benefits of a data center and provides computing solutions to organizations who need to store and process data, and it allows them to delegate management of IT infrastructure to a third-party.
 - The data and resources that organizations store in the cloud can include data, servers, storage, application hosting, analytics and a myriad of other services.
 - A cloud deployment model provides a basis for how cloud infrastructure is built, managed, and accessed.
+- There are four primary cloud deployment models:
+  - **Public Cloud:** A public cloud is a cloud infrastructure deployed by a provider to offer cloud services to the general public and organizations over the internet. In the public cloud model, there may be multiple tenants (consumers) who share common cloud resources. More than likely, many of us have accessed public cloud resources at some point through providers such as Amazon, Google, and other popular public cloud providers.
+  - **Private Cloud:** A private cloud is a cloud infrastructure that is setup for the sole use of a particular organization. When compared to a public cloud, a private cloud offers organizations a greater degree of privacy, and control over the cloud infrastructure, applications, and data. It can be hosted either on servers managed by the company that is using it or through a managed private cloud provider such as Rackspace or IBM.
+  - **Community Cloud:** A community cloud is a cloud infrastructure that is setup for the sole use by a group of organizations with common goals or requirements. The organizations participating in the community typically share the cost of the community cloud service. This option may be more expensive than the public cloud; however, it may offer a higher level of control and protection against external threats than a public cloud.
+  - **Hybrid Cloud:** A hybrid cloud is composed of two or more individual clouds, each of which can be a private, community, or public cloud. A hybrid cloud may change over time as component clouds join and leave. The use of such technology enables data and application portability. It also allows companies to leverage outside resources while retaining control of sensitive resources.
+
+#### 3.7.1 Linux in the Cloud
+- Linux plays a pivotal role in cloud computing. It powers 90% of the public cloud workload, most virtual servers are based on some version of the Linux kernel, and Linux is often used to host the applications behind cloud computing services. So what makes Linux uniquely suited to enabling cloud computing?
+
+##### Flexibility
+- Cloud computing provides the capability to provision IT resources quickly and at any time.
+- This agility enables rapid development and experimentation that, in turn, facilitates innovation which is essential for research and development, the discovery of new markets and revenue opportunities, creating new customer segments, and the development of new products.
+- As a result, cloud computing must compensate for the fact that each organization has a unique, evolving set of resources requirements.
+- Linux stands out here because it is highly adaptable. For starters, Linux is modular by design, and at the center of an enormous ecosystem of open source applications providing endless configuration options to suit various systems and use cases. On top of that, Linux scales efficiently, allowing it to run anything from a tiny remote sensor to an entire server farm.
+
+##### Accessibility
+- In a traditional environment, IT resources are accessed from dedicated devices, such as a desktop or a laptop.
 
 ---
 
@@ -366,6 +383,15 @@
 
 ### Image 41: Cloud Adoption & Deployment Models
 ![Handwritten notes on cloud adoption and deployment models](./assets/handwritten-notes-41.jpg)
+
+### Image 42: Public, Private, and Community Clouds
+![Handwritten notes on public, private, and community clouds](./assets/handwritten-notes-42.jpg)
+
+### Image 43: Hybrid Cloud & Linux in the Cloud
+![Handwritten notes on hybrid cloud and Linux in the cloud](./assets/handwritten-notes-43.jpg)
+
+### Image 44: Linux in the Cloud - Flexibility & Accessibility
+![Handwritten notes on Linux in the cloud flexibility and accessibility](./assets/handwritten-notes-44.jpg)
 
 ---
 
