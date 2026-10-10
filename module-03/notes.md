@@ -256,6 +256,26 @@
 
 ##### Accessibility
 - In a traditional environment, IT resources are accessed from dedicated devices, such as a desktop or a laptop.
+- In cloud computing, applications and data reside centrally and are accessed from anywhere over a network from any device, such as desktop, mobile, or thin client, and there is a version of linux for every single one of these device.
+
+##### Cost-Effective
+- Cloud computing is attractive as it has the potential for consumers to reduce their IT costs. In cloud computing, consumers can unilaterally and automatically scale IT resources to meet workload demand, thereby eliminating overhead from underutilized resources.
+- Additionally, the expenses associated with IT configuration, management, floor space, power, and cooling are reduced.
+- Cloud providers absorbs these infrastructure costs but must remain a low-cost alternative. Choosing linux is one of the most cost-effective solutions providers can deploy. linux is one of the most power efficient operating systems, and the linux kernel is completely free, as are many associated applications, utilities, and additional software components.
+- Enterprise and government organizations can opt to pay for commercially-supported distributions, which are still more cost-effective when compared to licensed competitors. Non-commercial distributions that could support cloud computing also are a viable option for many organizations.
+- Not only can vendors pass these savings onto the customers, offering linux-based solutions can be cheaper for the client to implement. setting up linux on their own systems eliminates expensive user licensing fees potentially associated with competing operating systems.
+
+##### Manageability
+- While linux began as a niche operating system, its widespread presence in the IT industry has made linux use and administration a necessary skill for IT professionals. It is becoming increasingly easy for cloud vendors and consumers to acquire the necessary talent, or reallocate existing team members.
+- The nature of linux, built on the C programming language, also lends itself to automated management tools. A significant portion of linux servers operating in the cloud are created and managed by automated management programs rather than human operators. This process frees up administrators to monitor computing operations rather than updating systems
+
+##### Security
+- When using a cloud solution, especially a public cloud, an organization may have concerns related to privacy, external threats, and lack of control over the IT resources and data.
+- linux can help offset these issues because it is one of the most secure and reliable operating systems available. linux is open source, meaning its source code is available for anyone to obtain, review, and modify. This also means the code can be inspected for vulnerabilities and compatibility issues, resulting in an extensive community effort to rectify these issues and uphold the robust reputation of linux.
+
+##### Virtualization
+- Virtualization is one of the most significant advancements that has contributed to the enablement cloud of computing.
+- linux is a multi-user operating system, which means that many different users can work on the same system simultaneously and for the most part can't do things to harm other users. However, this does have limitations - users can hog disk space or take up too much memory or CPU resources and make the system slow for everyone. sharing the system in multi user mode also requires that everyone run as unprivileged users, so letting each user run their own web server, for example, is challenging.
 
 ---
 
@@ -392,6 +412,15 @@
 
 ### Image 44: Linux in the Cloud - Flexibility & Accessibility
 ![Handwritten notes on Linux in the cloud flexibility and accessibility](./assets/handwritten-notes-44.jpg)
+
+### Image 45: Cloud Cost-Effectiveness
+![Handwritten notes on cloud cost-effectiveness](./assets/handwritten-notes-45.jpg)
+
+### Image 46: Cloud Manageability & Security
+![Handwritten notes on cloud manageability and security](./assets/handwritten-notes-46.jpg)
+
+### Image 47: Security & Virtualization
+![Handwritten notes on security and virtualization](./assets/handwritten-notes-47.jpg)
 
 ---
 
