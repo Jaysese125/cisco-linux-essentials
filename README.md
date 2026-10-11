@@ -36,7 +36,7 @@ My goal is to demonstrate foundational Linux CLI proficiency, file management, s
 | :---: | :--- | :--- | :---: | :---: |
 | **01** | Intro to Linux | Linux ubiquity, kernel architecture, UNIX origins, and GNU/Linux | ✅ Complete | [View Notes](./module-01/notes.md) |
 | **02** | Operating Systems | OS role, GUI vs CLI interfaces, and major OS families | ✅ Complete | [View Notes](./module-02/notes.md) |
-| **03** | Working in Linux | Linux desktop, command line access, and application architecture | 🔄 In Progress | [View Notes](./module-03/notes.md) |
+| **03** | Working in Linux | Linux desktop, CLI, applications, package management, security, and cloud | ✅ Complete | [View Notes](./module-03/notes.md) |
 
 ---
 
@@ -45,11 +45,14 @@ My goal is to demonstrate foundational Linux CLI proficiency, file management, s
 - [x] Linux CLI Basics & Navigation
 - [x] Operating System Fundamentals & Linux Distributions
 - [x] Linux Desktop GUI & CLI Access
+- [x] Application Management & Development Languages
+- [x] Package Management (Debian & RPM)
+- [x] System Security, Privacy & Password Management
+- [x] Cloud Computing & Virtualization Concepts
 - [ ] File Management & Manipulation
-- [ ] System Security & Permissions
+- [ ] System Security & Permissions (Advanced)
 - [ ] Archiving & Compression
 - [ ] Bash Scripting Fundamentals
-- [ ] Package Management
 - [ ] Networking Fundamentals
 
 ---

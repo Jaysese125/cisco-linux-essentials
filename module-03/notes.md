@@ -1,7 +1,7 @@
 # Module 03: Working in Linux
 
 > **Course:** NDG Linux Essentials  
-> **Status:** 🔄 In Progress  
+> **Status:** ✅ Complete  
 > **Objective:** Understand the Linux desktop environment, CLI navigation, and application architecture.
 
 ---
@@ -277,6 +277,39 @@
 - Virtualization is one of the most significant advancements that has contributed to the enablement cloud of computing.
 - linux is a multi-user operating system, which means that many different users can work on the same system simultaneously and for the most part can't do things to harm other users. However, this does have limitations - users can hog disk space or take up too much memory or CPU resources and make the system slow for everyone. sharing the system in multi user mode also requires that everyone run as unprivileged users, so letting each user run their own web server, for example, is challenging.
 
+#### 3.7.2 Virtualization and Containers
+- Virtualization is the process where one physical computer, called the host, runs multiple copies of an operating system, each copy called a guest. These guest images can be pre-configured for specific functions to allow rapid deployment, often automatically, when needed.
+- The host system runs software called a hypervisor that switches resources between the various guests just like the Linux kernel does for individual processes. With bare metal hypervisors, the hypervisor runs directly on computer hardware rather than on top of an OS, freeing up more resources for guest images.
+- Virtualization works because servers spend most of their time idling and don't need physical resources such as a monitor and keyboard. With software like workstation and virtualbox from companies like vmware and oracle, you can run multiple virtual machines.
+- And by using it to run multiple virtual machines, administrators can optimize usage of physical resources and dramatically reduce cost over the previous one-machine, one-OS data center model. The main limitation is usually memory, however, with advances in hypervisor technology and CPUs, it is possible to put more virtual machines on one host than ever.
+- In a virtualized environment one host can run dozens of guest operating systems, and with support from the CPU itself, the guests don't even know they are running on a virtual machine. Each guest gets its own virtual resources and communicates with the network on its own. It is not even necessary to run the same operating system on all the guests, which further reduces the number of physical servers needed.
+- Virtualization offers a way for an enterprise to lower power usage and reduce data center space over an equivalent fleet of physical servers. Guests are now just software configurations, so it is easy to spin up a new machine for testing and destroy it when its usefulness has passed.
+- Since it is possible to run multiple instances of an operating system on one physical machine and connect to it over the network, the location of the machine doesn't matter. Cloud computing takes this approach and allows administrators to have virtual machines in a remote data center owned by another company, and only pay for the resources used.
+- Cloud computing vendors can take advantage of scales of economy to offer computing resources at far lower prices than operating an on-site data center.
+- **Containers and Bare Metal Deployments**
+- With the rise of containerization technologies like Docker and Kubernetes application software is now being written that runs in a serverless environment. Essentially, programmers are creating software that does one single function of a system (like database processing or storage) that runs in a container. These containers are organized in pods that run within a node and can talk with each other, and the outside world if needed.
+- Nodes, in turn, are organized and controlled by a master node that provides services to each component within the structure. Building applications in this way decouples each of the components from the others, and from the overhead of running an OS. Since each piece of the puzzle can be automatically destroyed and recreated by the master node they no longer need to be as robust as software that runs on the top of an OS. Although these new programming architectures are in many ways bypassing the need for a traditional OS the underlying technology that makes them work is still Linux. So, working in Linux will increasingly be working within a development team that draws on the disciplines of programming, database design, networking and systems administration to create systems in the future.
+
+---
+
+## 🏆 Chapter 03 Exam Results
+
+**Score:** 100% (10/10 Correct)  
+**Date:** October 12, 2026
+
+| Question | Answer | Section |
+| :--- | :--- | :---: |
+| Which of the following pieces of software deal with file sharing? | Samba, Netatalk, NFS | 3.2.2.5 |
+| If you wanted to create and print an invoice, which software could you use? | LibreOffice | 3.2.3.3 |
+| When a computer boots, it can get its network information through: | DHCP | 3.2.2.5 |
+| Two main families of Linux shells are: | Bourne shell (Bash) and C shell | 3.3.1 |
+| Examples of web server: | Apache, NGINX | 3.2.2.1 |
+| Linux machine to share files with windows client and servers: | Samba | 3.2.2.5 |
+| Configure your computer to check for updates: | system settings | 3.6.2 |
+| Software to write report: | LibreOffice Writer | 3.5 |
+| Trade off of increasing the level of privacy you have in your web browser: | Some sites may not work correctly | 3.6 |
+| Properties of strong password: | At least 10 characters, mixture of numbers, letters, and special symbols | 3.6 |
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -421,6 +454,15 @@
 
 ### Image 47: Security & Virtualization
 ![Handwritten notes on security and virtualization](./assets/handwritten-notes-47.jpg)
+
+### Image 48: Virtualization & Hypervisors
+![Handwritten notes on virtualization and hypervisors](./assets/handwritten-notes-48.jpg)
+
+### Image 49: Virtualization & Containers
+![Handwritten notes on virtualization and containers](./assets/handwritten-notes-49.jpg)
+
+### Image 50: Chapter 03 Exam Review
+![Handwritten notes on chapter 03 exam review](./assets/handwritten-notes-50.jpg)
 
 ---
 
