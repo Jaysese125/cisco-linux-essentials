@@ -38,28 +38,50 @@
 - In most cases, the ownership of the software remains with the person or company that created it. Users are only granted a license to use the software, this is a matter of copyright law. The money transfer depends on the business model of the creator. It's the licensing that differentiates open source software from closed source software.
 - Two contrasting examples will get things started.
 - With Microsoft Windows, the Microsoft corporation owns the intellectual property. The license itself, the End User License Agreement (EULA), is a custom legal document that you must click through, indicating your acceptance, in order to install the software. Microsoft keeps the source code and distributes only binary copies through authorized channels. For most consumer products you are allowed to install the software on one computer and are not allowed to make copies of the disk other than for a backup. You are not allowed to reverse engineer the software. You pay for one copy of the software, which gets you minor updates but not major upgrades.
+- Linux is owned by Linus Torvalds. He has placed the code under a license called GNU General Public License Version 2 (GPLv2). This license, among other things, says that the source code must be made available to anyone who asks and that anyone is allowed to make changes. One caveat to this is that if someone makes changes and distributes them, they must put the changes under the same license so that others can benefit. GPLv2 also says that no one is allowed to charge for distributing the source code other than the actual costs of doing so (such as copying it to removable media).
+- In general, when someone creates something, they also get the right to decide how it is used and distributed. Free and Open Source Software (FOSS) refers to software where this right has been given up; and one is allowed to view the source code and redistribute it.
+- Linus Torvalds has done that with Linux - even though he created Linux he can't forbid someone from using it on their computer because he has given up that right through the GPLv2 license.
+- Software licensing is a political issue, therefore it should come as no surprise that there are many different opinions. Organizations have come up with their own license that embodies their particular views, so it is easier to choose an existing license than come up with your own.
+- For example, universities like the Massachusetts Institute of Technology (MIT) and University of California have come up with licenses, as have projects like the Apache foundation. Also, groups like the Free Software Foundation have created their own licenses to further their agenda.
+
+#### 4.2.1 The Free Software Foundation
+- Two groups can be considered the most influential forces in the world of open source: the Free Software Foundation and the Open Source Initiative.
+- Only a few years after the development of the GNU project, Richard Stallman founded the Free Software Foundation (FSF) in 1985 with the goal of promoting free software. In this context, the word "free" does not refer to the price, but to the freedom to share, study, and modify the underlying source code.
+- According to their website, the FSF believes that users should have "control over the technology we use in our homes, schools, and businesses."
+- FSF also advocates that software licenses should enforce the openness of modifications. It is their view that if someone modifies free software that they should be required to share any changes they have made when they share it again. This specific philosophy is called copyleft.
+- According to FSF, "copyleft is a general method for making a program (or other work) free (in the sense of freedom, not "zero price"), and requiring any modified and extended versions of the program to be free as well."
+- The FSF also advocates against software patents and acts as a watchdog for standards organizations, speaking out when a proposed standard might violate the free software principles by including items like Digital Rights Management (DRM) which restrict what can be done with compliant programs.
 
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
 
-### Image 1: Introduction to Open Source
-![Handwritten notes on introduction to open source](./assets/handwritten-notes-1.jpg)
+### Image 1: Introduction & Compiler
+![Handwritten notes on introduction and compiler](./assets/handwritten-notes-1.jpg)
 
-### Image 2: Open Source Philosophy & Community
-![Handwritten notes on open source philosophy and community](./assets/handwritten-notes-2.jpg)
+### Image 2: Open Source Philosophy & Interpreted Languages
+![Handwritten notes on open source philosophy and interpreted languages](./assets/handwritten-notes-2.jpg)
 
-### Image 3: Linux Adoption & Industry Shift
-![Handwritten notes on Linux adoption and industry shift](./assets/handwritten-notes-3.jpg)
+### Image 3: Community & Linux Adoption
+![Handwritten notes on community and Linux adoption](./assets/handwritten-notes-3.jpg)
 
 ### Image 4: UNIX History & Standards
 ![Handwritten notes on UNIX history and standards](./assets/handwritten-notes-4.jpg)
 
-### Image 5: Standards Organizations & Open Source Collaboration
-![Handwritten notes on standards organizations and open source collaboration](./assets/handwritten-notes-5.jpg)
+### Image 5: Standards Organizations & APIs
+![Handwritten notes on standards organizations and APIs](./assets/handwritten-notes-5.jpg)
 
 ### Image 6: Open Source Licensing & Microsoft EULA
 ![Handwritten notes on open source licensing and Microsoft EULA](./assets/handwritten-notes-6.jpg)
+
+### Image 7: GPLv2, FOSS, and Linus Torvalds
+![Handwritten notes on GPLv2, FOSS, and Linus Torvalds](./assets/handwritten-notes-7.jpg)
+
+### Image 8: Software Licensing & Free Software Foundation
+![Handwritten notes on software licensing and Free Software Foundation](./assets/handwritten-notes-8.jpg)
+
+### Image 9: FSF, Copyleft, and DRM
+![Handwritten notes on FSF, copyleft, and DRM](./assets/handwritten-notes-9.jpg)
 
 ---
 
