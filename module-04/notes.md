@@ -51,6 +51,20 @@
 - FSF also advocates that software licenses should enforce the openness of modifications. It is their view that if someone modifies free software that they should be required to share any changes they have made when they share it again. This specific philosophy is called copyleft.
 - According to FSF, "copyleft is a general method for making a program (or other work) free (in the sense of freedom, not "zero price"), and requiring any modified and extended versions of the program to be free as well."
 - The FSF also advocates against software patents and acts as a watchdog for standards organizations, speaking out when a proposed standard might violate the free software principles by including items like Digital Rights Management (DRM) which restrict what can be done with compliant programs.
+- The FSF have developed their own set of licenses which are free for anyone to use based on the original GNU General Public License (GPL). FSF currently maintains GNU General Public License version 2 (GPLv2) and version 3 (GPLv3), as well as the GNU Lesser General Public licenses version 2 (LGPLv2) and version 3 (LGPLv3).
+- These licenses are meant to be included in the actual source code to ensure that all future variants and modifications of the original program continue to have the same freedom of use as the original.
+- The GPL license and its variants are powerful legal tools to advance the cause of free software worldwide. what started off in 1983 as one man's desire to share and improve software by letting others change it has ended up changing the world.
+
+> **consider this :**
+> the changes between GPLv2 and GPLv3 largely focused on using free software on a closed hardware device which has been coined tivoization. TiVo is a company that builds a television digital video recorder on their own hardware and used linux as the base for their software.
+> While tivo released the source code to their version of linux as required under GPLv2, the hardware would not run any modified binaries. In the eyes of the FSF, this went against the spirit of the GPLv2, so they added a specific clause to version 3 of the license. Linus Torvalds agrees with Tivo on this matter and has chosen to stay with GPLv2.
+
+#### 4.2.2 The Open Source Initiative
+- The Open Source Initiative (OSI) was founded in 1998 by Bruce Perens and Eric Raymond. They believed that the Free Software Foundation was too politically charged and that less extreme licenses were necessary, eventually around the copyright aspects of FSF licenses. OSI believes that not only should the source be freely available, but also that no restrictions should be placed on the use of the software, no matter what the intended use.
+- Unlike the FSF, the OSI does not have its own licenses. Instead, the OSI has a set of principles and adds licenses to that list if they meet those principles, called open source licenses. software that conforms to an open source license is, therefore, open source software.
+- One type of open source license is the BSD (Berkeley Software Distribution) and its derivatives, which are much simpler than GPL. There are currently two current "BSD" licenses approved by OSI, a 2-clause and a 3-clause.
+- These licenses state that you may redistribute the source and binaries as long as you maintain copyright notices and don't imply that the original creator endorses your version. In other words "do what you want with this software, just don't say you wrote it." According to FSF, the original BSD license had a serious flaw in that it required developers to add a clause acknowledging the University of California, Berkeley in every advertisement for software licensed this way. As others copied this simple license, they included acknowledgement for their own institutions which led to over 75 such acknowledgements in some cases.
+- FSF licenses, such as GPLv2, are also open source licenses. However, many open source licenses such as BSD and MIT do not contain the copyleft provisions and thus not acceptable to the FSF.
 
 ---
 
@@ -82,6 +96,15 @@
 
 ### Image 9: FSF, Copyleft, and DRM
 ![Handwritten notes on FSF, copyleft, and DRM](./assets/handwritten-notes-9.jpg)
+
+### Image 10: GPL Variants and Tivoization
+![Handwritten notes on GPL variants and Tivoization](./assets/handwritten-notes-10.jpg)
+
+### Image 11: Open Source Initiative & Tivoization Dispute
+![Handwritten notes on Open Source Initiative and Tivoization dispute](./assets/handwritten-notes-11.jpg)
+
+### Image 12: BSD Licenses & OSI Principles
+![Handwritten notes on BSD licenses and OSI principles](./assets/handwritten-notes-12.jpg)
 
 ---
 
