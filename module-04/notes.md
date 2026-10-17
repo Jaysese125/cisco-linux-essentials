@@ -65,6 +65,25 @@
 - One type of open source license is the BSD (Berkeley Software Distribution) and its derivatives, which are much simpler than GPL. There are currently two current "BSD" licenses approved by OSI, a 2-clause and a 3-clause.
 - These licenses state that you may redistribute the source and binaries as long as you maintain copyright notices and don't imply that the original creator endorses your version. In other words "do what you want with this software, just don't say you wrote it." According to FSF, the original BSD license had a serious flaw in that it required developers to add a clause acknowledging the University of California, Berkeley in every advertisement for software licensed this way. As others copied this simple license, they included acknowledgement for their own institutions which led to over 75 such acknowledgements in some cases.
 - FSF licenses, such as GPLv2, are also open source licenses. However, many open source licenses such as BSD and MIT do not contain the copyleft provisions and thus not acceptable to the FSF.
+- These licenses are called permissive free software licenses because they are permissive in how you can redistribute the software. you can take BSD licensed software and include it in a closed software product as long as you give proper attribution.
+- Rather than dwell over the finer points of open source and free software, the community has started referring to them collectively as Free and Open Source Software (FOSS). The English word "free" can mean "free as in lunch" (as in no cost) or "free as in speech" (as in no restrictions). This ambiguity led to the inclusion of the word "libre" to refer to the latter definition, thus, we end up with Free / Libre / open source software (F/LOSS).
+
+#### 4.2.3 Creative Commons
+- FOSS licenses are mostly related to software. people have placed works such as drawings and plans under FOSS licenses, but this was not the intent.
+- When software has been placed in the public domain, the author has relinquished all rights, including the copyright on the work. In some countries, this is the default when the work is done by a government agency. in some countries, copywrited work becomes public domain after the author has died and a lengthy waiting period has elapsed.
+- The creative commons (cc) organization has created the creative commons licenses which try to address the intentions behind FOSS licenses for non-software entities. CC licenses can also be used to restrict commercial use if that is the desire of the copyright holder. the CC licenses are made of the following set of conditions the creator can apply to their work:
+  - **Attribution (BY)** - All CC licenses require that the creator must be given credit, without implying that the creator endorse the use.
+  - **ShareAlike (SA)** - this allows others to copy, distribute, perform, and modify the work, provided they do so under the same terms.
+  - **NonCommercial (NC)** - this allows others to distribute, display, perform, and modify the work for any purpose other than commercially.
+  - **NoDerivatives (ND)** - this allows others to distribute, display, and perform only original copies of the work. they must obtain the creator's permission to modify it.
+- These conditions are then combined to create the six main licenses offered by creative commons.
+  - **Attribution (CC BY)** - much like the BSD license, you can use CC BY content for any use but must credit the copyright holder.
+  - **Attribution ShareAlike (CC BY-SA)** - A copyleft version of the Attribute license: Derived works must be shared under the same license, much like in the free software ideals.
+  - **Attribution NoDerivs (CC BY-ND)** - you may redistribute the content under the same conditions as CC BY, but must not change it.
+  - **Attribution-NonCommercial (CC BY-NC-SA)** - builds on the CC BY-NC license but requires that your changes be shared under the same license.
+  - **Attribution-NonCommercial (CC BY-NC)** - just like CC BY, but you may not use it for commercial purposes.
+  - **Attribution-NonCommercial-NoDerivs (CC BY-NC-ND)** - you are sharing the content to be use for non-commercial purposes, but people may not change the content.
+  - **No Rights Reserved (CC0)** - this is the creative commons version of public domain.
 
 ---
 
@@ -105,6 +124,15 @@
 
 ### Image 12: BSD Licenses & OSI Principles
 ![Handwritten notes on BSD licenses and OSI principles](./assets/handwritten-notes-12.jpg)
+
+### Image 13: Permissive Licenses, FOSS, and Public Domain
+![Handwritten notes on permissive licenses, FOSS, and public domain](./assets/handwritten-notes-13.jpg)
+
+### Image 14: Creative Commons Organization & Conditions
+![Handwritten notes on Creative Commons organization and conditions](./assets/handwritten-notes-14.jpg)
+
+### Image 15: Creative Commons License Combinations
+![Handwritten notes on Creative Commons license combinations](./assets/handwritten-notes-15.jpg)
 
 ---
 
