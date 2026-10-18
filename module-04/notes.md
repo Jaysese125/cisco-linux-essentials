@@ -1,7 +1,7 @@
 # Module 04: Open Source Software and Licensing
 
 > **Course:** NDG Linux Essentials  
-> **Status:** 🔄 In Progress  
+> **Status:** ✅ Complete  
 > **Objective:** Understand the history, philosophy, and mechanics of open source software and licensing.
 
 ---
@@ -85,6 +85,44 @@
   - **Attribution-NonCommercial-NoDerivs (CC BY-NC-ND)** - you are sharing the content to be use for non-commercial purposes, but people may not change the content.
   - **No Rights Reserved (CC0)** - this is the creative commons version of public domain.
 
+### 4.3 Open Source Business Models
+- If all this software is free, how can anyone make money off of it?
+- First, you must understand there isn't anything in the GPL that prohibits selling software. In fact, the right to sell software is part of the GPL license. Again, recall that the word free refers to freedom, not price. Companies that add value to these free programs are encouraged to make as much money as they can, and put those profits back into developing more and better software.
+- One of the simplest ways to make money is to sell support or warranty around the software. companies like Canonical, the developer of Ubuntu, and RedHat have grown into huge enterprises by creating linux distributions and tools that enable commercial users to manage their enterprises and offer products and services to their customers.
+- Many other open source projects have also expanded into substantial businesses. In the 1990s, Gerald Combs was working at an Internet service provider and started writing his own network analysis tool because similar tools at the time were costly.
+- Over 600 people have now contributed to the project, called wireshark. It is now often considered better than commercial offerings and led to a company being formed to sell products and support like many others. this company was purchased by a larger enterprise that supports its continued development.
+- companies like TiVo have packaged hardware or add extra closed source software to sell alongside the free software. Appliances and embedded systems that use linux are a multi-billion dollar business and encompass everything from home DVRs to security cameras and wearable fitness devices.
+- Many consumer firewalls and entertainment devices follow this model.
+- Today, both large and small employers have individuals and sometimes whole groups devoted to working on open source projects. Technology companies compete for the opportunity to influence projects that will shape the future of their industries.
+- Other companies dedicate resources towards projects they need for internal use. As more business is done on cloud resources, the opportunity for open source programmers continues to expand.
+
+---
+
+## 🏆 Chapter 04 Exam Results
+
+**Attempt 1 Score:** 90% (9/10 Correct)  
+**Attempt 1 Date:** October 19, 2026, 5:17 a.m.
+**Attempt 2 Score:** 100% (10/10 Correct)  
+**Attempt 2 Date:** October 19, 2026, 5:22 a.m.
+
+| Question | Answer | Section |
+| :--- | :--- | :---: |
+| Linux source code is available to: | Anyone who has the knowledge needed to access it | 4.1 |
+| Open source means (choose two): | You can view the software's source code, You can modify the software's source code | 4.1 |
+| Source code refers to: | A human-readable version of computer software | 4.1 |
+| Open source licenses differ, but generally agree that (choose two): | You should have access to the source code of software, You should be able modify the software as you wish | 4.1 |
+| Richard Stallman is associated with: | The Free Software Foundation | 4.2.1 |
+| The largest difference between the GPLv2 and BSD licenses is: | BSD has no copyleft provision | 4.2.2 |
+| Which of the following licenses was made by the FSF? | GPLv3 | 4.2.1 |
+| Linux is distributed under which license? | GPLv2 | 4.2 |
+| Who founded the Open Source Initiative? (choose two) | Bruce Perens, Eric Raymond | 4.2.2 |
+| A generic term for Open Source and Free Software is: | FLOSS | 4.2.2 |
+| Which are examples of permissive software licenses? (choose two) | BSD, MIT | 4.2.2 |
+| Permissive free software licenses (choose three): | Don't have a copyleft provision, Are not approved by the FSF, Can allow software to be used inside closed source software | 4.2.2 |
+| Creative Commons licenses allow you to (choose three): | Specify whether or not changes must be shared, Specify whether or not people may distribute changes, Allow or disallow commercial use | 4.2.3 |
+| The Creative Commons version of Public Domain licensing is: | No Rights Reserved (CC0) | 4.2.3 |
+| Your company makes a hardware firewall that runs a custom Linux kernel. What are your obligations under GPLv2? | You must make the source to your kernel available. | 4.2 |
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -133,6 +171,12 @@
 
 ### Image 15: Creative Commons License Combinations
 ![Handwritten notes on Creative Commons license combinations](./assets/handwritten-notes-15.jpg)
+
+### Image 16: Open Source Business Models
+![Handwritten notes on open source business models](./assets/handwritten-notes-16.jpg)
+
+### Image 17: Wireshark and Hardware Models
+![Handwritten notes on Wireshark and hardware models](./assets/handwritten-notes-17.jpg)
 
 ---
 

@@ -37,7 +37,7 @@ My goal is to demonstrate foundational Linux CLI proficiency, file management, s
 | **01** | Intro to Linux | Linux ubiquity, kernel architecture, UNIX origins, and GNU/Linux | ✅ Complete | [View Notes](./module-01/notes.md) |
 | **02** | Operating Systems | OS role, GUI vs CLI interfaces, and major OS families | ✅ Complete | [View Notes](./module-02/notes.md) |
 | **03** | Working in Linux | Linux desktop, CLI, applications, package management, security, and cloud | ✅ Complete | [View Notes](./module-03/notes.md) |
-| **04** | Open Source Software | History, philosophy, and mechanics of open source licensing | 🔄 In Progress | [View Notes](./module-04/notes.md) |
+| **04** | Open Source Software | History, philosophy, mechanics of open source licensing, and business models | ✅ Complete | [View Notes](./module-04/notes.md) |
 
 ---
 
@@ -50,6 +50,7 @@ My goal is to demonstrate foundational Linux CLI proficiency, file management, s
 - [x] Package Management (Debian & RPM)
 - [x] System Security, Privacy & Password Management
 - [x] Cloud Computing & Virtualization Concepts
+- [x] Open Source Licensing & Business Models
 - [ ] File Management & Manipulation
 - [ ] System Security & Permissions (Advanced)
 - [ ] Archiving & Compression
