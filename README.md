@@ -38,6 +38,7 @@ My goal is to demonstrate foundational Linux CLI proficiency, file management, s
 | **02** | Operating Systems | OS role, GUI vs CLI interfaces, and major OS families | ✅ Complete | [View Notes](./module-02/notes.md) |
 | **03** | Working in Linux | Linux desktop, CLI, applications, package management, security, and cloud | ✅ Complete | [View Notes](./module-03/notes.md) |
 | **04** | Open Source Software | History, philosophy, mechanics of open source licensing, and business models | ✅ Complete | [View Notes](./module-04/notes.md) |
+| **05** | Command Line Skills | CLI introduction, shell features, and prompt structure | 🔄 In Progress | [View Notes](./module-05/notes.md) |
 
 ---
 
@@ -51,6 +52,7 @@ My goal is to demonstrate foundational Linux CLI proficiency, file management, s
 - [x] System Security, Privacy & Password Management
 - [x] Cloud Computing & Virtualization Concepts
 - [x] Open Source Licensing & Business Models
+- [x] Command Line Shells & Prompt Configuration
 - [ ] File Management & Manipulation
 - [ ] System Security & Permissions (Advanced)
 - [ ] Archiving & Compression
