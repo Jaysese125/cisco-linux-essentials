@@ -35,6 +35,59 @@ sysadmin@localhost:~$
 *(username: sysadmin, systemname: localhost, current directory: ~)*
 
 - the prompt shown contains the following information: username, systemname, and current directory.
+- the ~ symbol is used as shorthand for the user's home directory. typically the home directory for the user is under the /home directory and named after the user account name, for example, /home/sysadmin
+
+### 5.3 Commands
+- what is a command? the simplest answer is that a command is a software program that, when executed on the CLI, performs an action on the computer.
+- To execute a command, the first step is to type the name of the command.
+
+**Example:**
+```text
+sysadmin@localhost:~$ ls
+```
+**Note:**
+- By itself, the ls commands lists files and directory contained in the current working directory.
+- Many commands can be used by themselves with no further input. Some commands require additional input to run correctly. This additional input comes in two forms: options and arguments.
+- The typical format for a command is as follows:
+```text
+command [options] [arguments]
+```
+- options are used to modify the core behaviour of a command while arguments are used to provide additional information (such as a file name or a username). Each option and argument is normally seperated by a space, although options can be often combined.
+- Keep in mind that linux is case-sensitive. commands, options, arguments, variables, and file names must be entered exactly as shown.
+
+#### 5.3.1 Arguments
+```text
+command [options] [arguments]
+```
+- An argument can be used to specify something for the command to act upon. If the ls command is given the name of a directory as an argument, it lists the contents of that directory. In the following example, the /etc/ppp directory is used as an argument; the following resulting output is a list of files contained in that directory:
+
+```text
+sysadmin@localhost:~$ ls /etc/ppp
+ip-down.d   ip-up.d
+```
+*(ip-down.d and ip-up.d are files in the directory)*
+
+- The ls command also accepts multiple arguments. To list the contents of both the /etc/ppp and /etc/ssh directories, pass them both as arguments:
+
+```text
+sysadmin@localhost:~$ ls /etc/ppp /etc/ssh
+/etc/ppp:
+ip-down.d   ip-up.d
+/etc/ssh:
+moduli                  ssh-host-dsa_key.pub
+ssh_host_ecdsa_key      ssh_host_rsa_key.pub
+ssh_host_dsa_key        ssh_host_ecdsa_key.pub
+ssh_host_rsa_key        sshd_config
+ssh_import_id
+```
+*(2 ls commands at once on /etc/ppp and /etc/ssh)*
+
+#### 5.3.2 Options
+```text
+command [options] [arguments]
+```
+- Options can be used with commands to expand or modify the way command behaves. For example, using the -l option of the ls command results in a long listing, providing additional information about the files that are listed, such as the permissions, the size of the file and other information:
+- Note that, in the command, -l is a lowercase letter "L". An easy way to remember this is -l is a mnemonic (easy to memorize programming code) for long listing.
 
 ---
 
@@ -49,6 +102,15 @@ sysadmin@localhost:~$
 ### Image 3: Variables & Prompt Structure
 ![Handwritten notes on variables and prompt structure](./assets/handwritten-notes-3.jpg)
 
+### Image 4: Commands & Arguments
+![Handwritten notes on commands and arguments](./assets/handwritten-notes-4.jpg)
+
+### Image 5: Arguments & Multiple Directories
+![Handwritten notes on arguments and multiple directories](./assets/handwritten-notes-5.jpg)
+
+### Image 6: Options
+![Handwritten notes on options](./assets/handwritten-notes-6.jpg)
+
 ---
 
 ## 🆕 Ongoing Learning & Additions
@@ -60,6 +122,7 @@ sysadmin@localhost:~$
 | :--- | :--- | :--- |
 | `history` | Show command history | `history` |
 | `alias` | Create command shortcut | `alias ll='ls -la'` |
+| `ls` | List directory contents | `ls /etc/ppp` |
 
 ---
 
