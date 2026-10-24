@@ -89,6 +89,147 @@ command [options] [arguments]
 - Options can be used with commands to expand or modify the way command behaves. For example, using the -l option of the ls command results in a long listing, providing additional information about the files that are listed, such as the permissions, the size of the file and other information:
 - Note that, in the command, -l is a lowercase letter "L". An easy way to remember this is -l is a mnemonic (easy to memorize programming code) for long listing.
 
+```text
+sysadmin@localhost:~$ ls -l
+total 0
+drwxr-xr-x 1 sysadmin sysadmin 0 Jan 29
+20:13 Desktop
+```
+- Often the character is chosen to be mnemonic for its purpose, like choosing the letter l for long or r for reverse. By default, the ls command prints the results in alphabetical order, and so by adding the -r option, it prints the results in reverse alphabetical order.
+
+```text
+sysadmin@localhost:~$ ls -r
+Videos Templates Public Pictures Music
+Downloads Documents Desktop
+```
+- In most cases, options can be used in conjunction with other options. They can be given as separate options, as in -l -r, or combined, as in -lr. the combination of these two options would result in a long listing output in reverse alphabetical order.
+
+```text
+sysadmin@localhost:~$ ls -lr
+total 32
+drwxr-xr-x 2 sysadmin sysadmin 4096
+Oct 31 20:13 Downloads
+drwxr-xr-x 2 sysadmin sysadmin 4096
+Oct 31 20:13 Documents
+drwxr-xr-x 2 sysadmin sysadmin 4096
+Oct 31 20:13 Desktop
+```
+- The order of the combined options isn't important. the output of all these examples would be the same:
+```text
+ls -l -r
+ls -rl
+ls -lr
+```
+- By default the -l option of the ls command displays files sizes in bytes:
+```text
+sysadmin@localhost:~$ ls -l /usr/bin/perl
+-rwxr-xr-x 2 root root 10376 Feb 4
+2018 /usr/bin/perl
+```
+- If the -h option is added, the file sizes will be displayed in human readable format:
+```text
+sysadmin@localhost:~$ ls -lh /usr/bin/perl
+-rwxr-xr-x 2 root root 11K Feb 4
+2018 /usr/bin/perl
+```
+- Options are often single letters; however, sometimes they are words or phrases as well. Typically, older commands use single letters while newer commands use complete words for options.
+- Single-letter options are preceded by a single dash - character, like the -h option. Full-word options are preceded by two dash -- characters. the -h option also has an equivalent full-word form: the --human-readable option.
+
+```text
+sysadmin@localhost:~$ ls -l
+--human-readable /usr/bin/perl
+-rwxr-xr-x 2 root root 11K Feb 4
+2018 /usr/bin/perl
+```
+
+#### 5.3.3 History
+- when a command is executed in the terminal, it is stored in a history list. this is designed to make it easy to execute the same command later eliminating the need to retype the entire command.
+- Pressing the Up Arrow ↑ key the previous command on the prompt line. The entire history of commands run in the current session can be displayed by pressing UP repeatedly to move back through the history of commands that have been run. Pressing the Enter key runs the displayed command again.
+- When the desired command is located, the Left Arrow ← and Right Arrow → keys can position the cursor for editing.
+- Other useful keys include the Home, End, Backspace and Delete keys.
+- To view the history list of a terminal, use the history command:
+
+```text
+sysadmin@localhost:~$ date
+Wed Dec 12 04:28:12 UTC 2018
+
+sysadmin@localhost:~$ ls
+Desktop Documents Downloads Music
+Pictures Public Templates Videos
+
+sysadmin@localhost:~$ cal 05 2030
+```
+*(calendar of May (5) month year 2030)*
+
+```text
+                    May 2030
+su  mo  tu  we  th  fr  sa
+                       1   2   3   4
+ 5   6   7   8   9  10  11
+12  13  14  15  16  17  18
+19  20  21  22  23  24  25
+26  27  28  29  30  31
+
+sysadmin@localhost:~$ history
+    1   date
+    2   ls
+    3   cal 05 2030
+    4   history
+```
+*(commands history numbered from first to last based on execution)*
+
+- If the desired command is in the list that the history command generates, it can be executed by typing an exclamation point ! character and then the number next to the command. For example, to execute the cal command again:
+
+```text
+sysadmin@localhost:~$ !3
+cal 5 2030
+
+                    May 2030
+su  mo  tu  we  th  fr  sa
+                       1   2   3   4
+ 5   6   7   8   9  10  11
+12  13  14  15  16  17  18
+19  20  21  22  23  24  25
+26  27  28  29  30  31
+```
+
+- If the history command is passed a number as an argument, it outputs that number of previous commands from the history list. For example, to show the last three commands:
+
+```text
+sysadmin@localhost:~$ history 3
+    6   date
+    7   ls /home
+    8   history 3
+```
+
+- To execute the nth command from the bottom of the history list, type !-n and hit Enter. For example, to execute the third command from the bottom of the history list execute the following:
+
+```text
+sysadmin@localhost:~$ !-3
+date
+Wed Dec 12 04:31:55 UTC 2018
+```
+- To execute the most recent command type !! and hit Enter.
+
+```text
+sysadmin@localhost:~$ date
+Wed Dec 12 04:32:36 UTC 2018
+
+sysadmin@localhost:~$ !!
+date
+Wed Dec 12 04:32:38 UTC 2018
+```
+- To execute the most recent iteration of a specific command, type ! followed by the name of the command and hit Enter. For example, to execute the most recent ls command:
+
+```text
+sysadmin@localhost:~$ !ls
+ls /home
+sysadmin
+```
+
+### 5.4 Variables
+- A variable is a feature that allows the user or the shell to store data.
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -111,6 +252,24 @@ command [options] [arguments]
 ### Image 6: Options
 ![Handwritten notes on options](./assets/handwritten-notes-6.jpg)
 
+### Image 7: Options (ls -l, ls -r)
+![Handwritten notes on ls -l and ls -r](./assets/handwritten-notes-7.jpg)
+
+### Image 8: Combined Options & Human Readable
+![Handwritten notes on combined options and human readable](./assets/handwritten-notes-8.jpg)
+
+### Image 9: Single vs Full-word Options & History
+![Handwritten notes on single vs full-word options and history](./assets/handwritten-notes-9.jpg)
+
+### Image 10: History Navigation & Calendar
+![Handwritten notes on history navigation and calendar](./assets/handwritten-notes-10.jpg)
+
+### Image 11: History Command Execution
+![Handwritten notes on history command execution](./assets/handwritten-notes-11.jpg)
+
+### Image 12: Advanced History & Variables
+![Handwritten notes on advanced history and variables](./assets/handwritten-notes-12.jpg)
+
 ---
 
 ## 🆕 Ongoing Learning & Additions
@@ -123,6 +282,8 @@ command [options] [arguments]
 | `history` | Show command history | `history` |
 | `alias` | Create command shortcut | `alias ll='ls -la'` |
 | `ls` | List directory contents | `ls /etc/ppp` |
+| `cal` | Display a calendar | `cal 05 2030` |
+| `date` | Display current date/time | `date` |
 
 ---
 
