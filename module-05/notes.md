@@ -229,6 +229,63 @@ sysadmin
 
 ### 5.4 Variables
 - A variable is a feature that allows the user or the shell to store data.
+- this data can be used to provide critical system information or to change the behaviour of how the Bash shell (or other commands) work. variables are given names and stored temporarily in memory. there are two types of variables used in the bash shell : local and environment.
+
+#### 5.4.1 local variables
+- local or shell variables exist only in the current shell, and cannot affect other commands or applications. when the user closes a terminal window or shell, all of the variable are lost.
+- They are often associated with user-based tasks and are lowercase by convention.
+- To set the variable value, use the following assignment expression. If the variable already exists, the value of the variable is modified. If the variable name does not already exist, the shell creates a new local variable and sets the value:
+
+```text
+[ variable = value ]
+```
+
+- the following example creates a local variable named variable1 and assign it's a value of something :
+
+```text
+sysadmin@localhost:~$ variable1='something'
+```
+- the echo command is used to display output in the terminal. to display value of the variable, use a dollar sign $ character followed by the variable name as an argument to the echo command:
+
+```text
+sysadmin@localhost:~$ echo $variable1
+> something
+```
+
+#### 5.4.2 Environment variables
+- Environment variables, also called global variables, are available system-wide, in all shells used by Bash when interpreting commands and performing tasks.
+- the system automatically recreates environment variables when a new shell is opened. example includes the PATH, HOME and HISTSIZE variables. the HISTSIZE variable defines how many previous commands to store in the history list. the command in the example below displays the value of the HISTSIZE variable :
+
+```text
+sysadmin@localhost:~$ echo $HISTSIZE
+> 1000
+```
+
+- to modify the value of an existing variable, use the assignment expression :
+
+```text
+sysadmin@localhost:~$ HISTSIZE=500
+sysadmin@localhost:~$ echo $HISTSIZE
+> 500
+```
+
+- many variables are available for the Bash shell, as well as variables that affect different linux commands. A discussion of all variables is beyond the scope of this chapter; however, more shell variables will be covered as this course progresses.
+- when run without arguments, the env command outputs a list of the environment variables. Because the output of the env command quite long, the following example use a text search to filter that output.
+- in a previous example variable1 was created as a local variable, so the following search in the environment variable results in no output.
+
+```text
+sysadmin@localhost:~$ env | grep variable1
+```
+
+- the pipe character (|) passes the output of the env command to the grep command, which searches the output.
+- Note: This text filtering technique will be covered in detail later in the course.
+- the export command is used to turn a local variable into an environment variable.
+
+```text
+[ export variable ]
+```
+
+- After exporting variable1, it is now an environment variable. It is now found in the search through the environment variables :
 
 ---
 
@@ -270,6 +327,15 @@ sysadmin
 ### Image 12: Advanced History & Variables
 ![Handwritten notes on advanced history and variables](./assets/handwritten-notes-12.jpg)
 
+### Image 13: Local Variables
+![Handwritten notes on local variables](./assets/handwritten-notes-13.jpg)
+
+### Image 14: Echo Command & Environment Variables
+![Handwritten notes on echo command and environment variables](./assets/handwritten-notes-14.jpg)
+
+### Image 15: Env, Grep, and Export
+![Handwritten notes on env, grep, and export](./assets/handwritten-notes-15.jpg)
+
 ---
 
 ## 🆕 Ongoing Learning & Additions
@@ -284,6 +350,8 @@ sysadmin
 | `ls` | List directory contents | `ls /etc/ppp` |
 | `cal` | Display a calendar | `cal 05 2030` |
 | `date` | Display current date/time | `date` |
+| `env` | Display environment variables | `env` |
+| `export` | Set environment variable | `export variable` |
 
 ---
 
