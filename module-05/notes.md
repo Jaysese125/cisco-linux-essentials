@@ -287,6 +287,75 @@ sysadmin@localhost:~$ env | grep variable1
 
 - After exporting variable1, it is now an environment variable. It is now found in the search through the environment variables :
 
+```text
+sysadmin@localhost:~$ export variable1
+sysadmin@localhost:~$ env | grep variable1
+> variable1=something
+```
+
+- the export command can also be used to make a variable an environment variable upon its creation by using the assignment expression as the argument:
+
+```text
+sysadmin@localhost:~$ export variable2='Else'
+sysadmin@localhost:~$ env | grep variable 2
+> variable2=Else
+```
+
+- to change the value of an environment variable, use the assignment expression:
+
+```text
+sysadmin@localhost:~$ variable1='$variable1' '$variable2'
+sysadmin@localhost:~$ echo $variable1
+> something Else
+```
+
+- Exported variables can be removed using the unset command:
+
+```text
+[ sysadmin@localhost:~$ unset variable2 ]
+```
+
+#### 5.4.3 PATH Variable
+- One of the most important Bash shell variables to understand is the PATH variables. It contains a list that defines which directories the shell looks in to find commands.
+- If a valid command is entered and the shell returns a "command not found" error, it is because the Bash shell was unable to locate a command by that name in any of the directories included in the PATH. The following command displays the PATH of the current shell:
+
+```text
+sysadmin@localhost:~$ echo $PATH
+> /home/sysadmin/bin:/usr/local/sbin:
+/usr/local/bin:/usr/sbin:/usr/bin:/sbin:
+/bin:/usr/games
+```
+*(this the directories where you find commands inside the $PATH variable.)*
+
+- Each directory in the list is seperated by a colon : character. Based on the preceding output, the PATH contains the following directories. The shell will check the directories in the order they are listed.
+
+```text
+/home/sysadmin/bin
+/usr/local/sbin
+/usr/local/bin
+/usr/sbin
+/usr/bin
+/sbin
+/bin
+/usr/games
+```
+
+- Each of these directories is represented by a path. A path is a list of directories seperated by the / character. If you think of the filesystem as a map, paths are the directory addresses, which include step-by-step navigation directions; they can be used to indicate the location of any file within the system. For example, /home/sysadmin is a path to the home directory.
+- If the command is not found in any directory listed in the PATH variable, the shell returns an error:
+
+```text
+sysadmin@localhost:~$ zed
+> bash: zed: command not found
+```
+
+- If the custom software is installed on the system it may be necessary to modify the PATH to make it easier to execute these commands. For example, the following will add and verify the /usr/bin/custom directory to the PATH variable:
+
+```text
+sysadmin@localhost:~$ PATH = /usr/bin/custom : $PATH
+sysadmin@localhost:~$ echo $PATH
+> /usr/bin/custom:/home/sysadmin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+```
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -336,6 +405,15 @@ sysadmin@localhost:~$ env | grep variable1
 ### Image 15: Env, Grep, and Export
 ![Handwritten notes on env, grep, and export](./assets/handwritten-notes-15.jpg)
 
+### Image 16: Export, Unset, and Variable Modification
+![Handwritten notes on export, unset, and variable modification](./assets/handwritten-notes-16.jpg)
+
+### Image 17: PATH Variable & Command Not Found
+![Handwritten notes on PATH variable and command not found](./assets/handwritten-notes-17.jpg)
+
+### Image 18: PATH Modification
+![Handwritten notes on PATH modification](./assets/handwritten-notes-18.jpg)
+
 ---
 
 ## 🆕 Ongoing Learning & Additions
@@ -352,6 +430,7 @@ sysadmin@localhost:~$ env | grep variable1
 | `date` | Display current date/time | `date` |
 | `env` | Display environment variables | `env` |
 | `export` | Set environment variable | `export variable` |
+| `unset` | Remove environment variable | `unset variable` |
 
 ---
 
