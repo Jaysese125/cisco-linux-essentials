@@ -355,6 +355,69 @@ sysadmin@localhost:~$ PATH = /usr/bin/custom : $PATH
 sysadmin@localhost:~$ echo $PATH
 > /usr/bin/custom:/home/sysadmin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 ```
+- when updating the PATH variable, always include the current PATH, so as not to lose access to commands located in those directories. this can be accomplished by appending $PATH to the value in the assignment expression. recall that a variable name preceded by a dollar sign represents the value of the variable.
+
+### 5.5 Command Types
+- One way to learn more about a command is to look at where it comes from. the type command can be used to determine information about command type.
+- There are several different sources of commands within the shell of your CLI including internal commands, external commands, aliases, and functions.
+
+#### 5.5.1 Internal Commands
+- Also called built-in commands, internal commands are built into the shell itself. A good example is the cd (change directory) command as it is part of the Bash shell. When a user types the cd command, the Bash shell is already executing and knows how to interpret it, requiring no additional programs to be started.
+- the type command identifies the cd command as an internal command:
+
+```text
+sysadmin@localhost:~$ type cd
+> cd is a shell builtin
+```
+
+#### 5.5.2 External Commands
+- External commands are binary executables stored in directories that are searched by the shell. If a user types the ls command, then the shell searches through the directories that are listed in the PATH variable to try to find a file named ls that it can execute.
+- If a command does not behave as expected or if a command is not accessible that should be, it can be beneficial to know where the shell is finding the command or which version it is using. It would be tedious to have to manually look in each directory that is listed in the PATH variable. Instead, use the which command to display the full path to the command in question:
+
+```text
+[ which command ]
+```
+
+- the which command searches for the location of a command by searching the PATH variable.
+
+```text
+sysadmin@localhost:~$ which ls
+> /bin/ls
+sysadmin@localhost:~$ which cal
+> /usr/bin/cal
+```
+
+- External commands can also be executed by typing the complete path to the command. For example, to execute the ls command:
+
+```text
+sysadmin@localhost:~$ /bin/ls
+> Desktop Documents Downloads Music Pictures Public Templates Videos
+```
+*(we type the path instead of the ls)*
+
+- For external commands, the type command displays the location of the command:
+
+```text
+sysadmin@localhost:~$ type cal
+> cal is /usr/bin/cal
+```
+
+- In some cases the output of the type command may differ significantly from the output of the which command.
+
+```text
+sysadmin@localhost:~$ type echo
+> echo is a shell builtin
+sysadmin@localhost:~$ which echo
+> /bin/echo
+```
+
+- using the -a option of the type command displays all locations that contain the command named:
+
+```text
+sysadmin@localhost:~$ type -a echo
+> echo is a shell builtin
+> echo is /bin/echo
+```
 
 ---
 
@@ -414,6 +477,15 @@ sysadmin@localhost:~$ echo $PATH
 ### Image 18: PATH Modification
 ![Handwritten notes on PATH modification](./assets/handwritten-notes-18.jpg)
 
+### Image 19: PATH Updates & Command Types
+![Handwritten notes on PATH updates and command types](./assets/handwritten-notes-19.jpg)
+
+### Image 20: Internal & External Commands
+![Handwritten notes on internal and external commands](./assets/handwritten-notes-20.jpg)
+
+### Image 21: Which Command & Type Command
+![Handwritten notes on which command and type command](./assets/handwritten-notes-21.jpg)
+
 ---
 
 ## 🆕 Ongoing Learning & Additions
@@ -431,6 +503,8 @@ sysadmin@localhost:~$ echo $PATH
 | `env` | Display environment variables | `env` |
 | `export` | Set environment variable | `export variable` |
 | `unset` | Remove environment variable | `unset variable` |
+| `type` | Display command type | `type cd` |
+| `which` | Locate a command | `which ls` |
 
 ---
 
