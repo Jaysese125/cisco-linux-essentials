@@ -419,6 +419,47 @@ sysadmin@localhost:~$ type -a echo
 > echo is /bin/echo
 ```
 
+#### 5.5.3 Aliases
+- An alias can be used to map longer commands to shorter key sequences. When the shell sees an alias being executed, it substitutes the longer sequence before proceeding to interpret commands.
+- For example, the command ls -l is commonly aliased to l or ll. Because these smaller commands are easier to type, it becomes faster to run the ls -l command line.
+- To determine what aliases are set on the current shell use the alias command:
+
+```text
+sysadmin@localhost:~$ alias
+> alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+```
+
+- The aliases from the previous examples were created by initialization files. These files are designed to make the process of creating aliases automatic.
+- New aliases can be created using the following format, where name is the name to be given the alias and command is the command to be executed when the alias is run.
+
+```text
+alias name = command
+```
+
+- For example, the cal 2019 command displays the calendar for the year 2019. Suppose you end up running this command often. instead of executing the full command each time, you can create an alias called mycal and run the alias, as demonstrated in the following:
+
+```text
+sysadmin@localhost:~$ alias mycal='cal 2019'
+sysadmin@localhost:~$ mycal
+```
+
+- Aliases created this way only persist while the shell is open. Once the shell is closed, the new aliases are lost. Additionally, each shell has its own aliases, so aliases created in one shell won't be available in a new shell that's opened.
+- the type command can identify aliases to other commands:
+
+```text
+sysadmin@localhost:~$ type ll
+> ll is aliased to 'ls -alF'
+sysadmin@localhost:~$ type -a ls
+> ls is aliased to 'ls --color=auto'
+> ls is /bin/ls
+```
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -486,6 +527,12 @@ sysadmin@localhost:~$ type -a echo
 ### Image 21: Which Command & Type Command
 ![Handwritten notes on which command and type command](./assets/handwritten-notes-21.jpg)
 
+### Image 22: Aliases
+![Handwritten notes on aliases](./assets/handwritten-notes-22.jpg)
+
+### Image 23: Creating and Using Aliases
+![Handwritten notes on creating and using aliases](./assets/handwritten-notes-23.jpg)
+
 ---
 
 ## 🆕 Ongoing Learning & Additions
@@ -512,3 +559,4 @@ sysadmin@localhost:~$ type -a echo
 - [LPI Linux Essentials Official Page](https://www.lpi.org/our-certifications/linux-essentials-overview/)
 - [GNU Project Official Website](https://www.gnu.org/)
 - [The Linux Kernel Archives](https://www.kernel.org/)
+
