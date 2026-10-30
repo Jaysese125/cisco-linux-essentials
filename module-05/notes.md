@@ -460,6 +460,43 @@ sysadmin@localhost:~$ type -a ls
 > ls is /bin/ls
 ```
 
+#### 5.5.4 Functions
+- Functions can also be built using existing commands to either create new commands, or to override commands built-in to the shell or commands stored in files. Aliases and functions are normally loaded from the initialization files when the shell first starts.
+- Functions are more advanced than aliases and typically are used in Bash shell scripting. Typically, functions are used to execute multiple commands. To create a function, the following syntax is used:
+
+```text
+function_name ()
+{
+    commands
+}
+```
+
+- In the format above, function_name can be anything that the administrator wants to call the function. The commands that the administrator wants to execute can replace the commands placeholder. Note the formatting, in particular, the location of the parenthesis () and braces {}, as well as the convention of using tabs to make the function more easily readable.
+- Functions are useful as they allow for a set of commands to be executed one at a time instead of typing each command repeatedly. In the example below, a function called my_report is created to execute the ls, date, and echo commands.
+
+```text
+sysadmin@localhost:~$ my_report () {
+> ls Documents
+> date
+> echo "Document directory report"
+> }
+```
+
+- When creating a function, a > character will appear as a prompt to enter the commands for the function.
+- The curly braces {} are used to let the shell know when a function begins and ends so as to exit the > prompt.
+- Once a function is created, the function name may be invoked from the BASH prompt to execute the function:
+
+```text
+sysadmin@localhost:~$ my_report
+school                  alpha.third.txt
+work                    alpha.txt
+adjectives.txt          animals.txt
+alpha-first.txt         food.txt
+alpha-second.txt        hello.sh
+Wed Oct 13 06:54:04 UTC 2021
+Document directory report
+```
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -533,6 +570,12 @@ sysadmin@localhost:~$ type -a ls
 ### Image 23: Creating and Using Aliases
 ![Handwritten notes on creating and using aliases](./assets/handwritten-notes-23.jpg)
 
+### Image 24: Functions
+![Handwritten notes on functions](./assets/handwritten-notes-24.jpg)
+
+### Image 25: Creating Functions
+![Handwritten notes on creating functions](./assets/handwritten-notes-25.jpg)
+
 ---
 
 ## 🆕 Ongoing Learning & Additions
@@ -559,4 +602,3 @@ sysadmin@localhost:~$ type -a ls
 - [LPI Linux Essentials Official Page](https://www.lpi.org/our-certifications/linux-essentials-overview/)
 - [GNU Project Official Website](https://www.gnu.org/)
 - [The Linux Kernel Archives](https://www.kernel.org/)
-
