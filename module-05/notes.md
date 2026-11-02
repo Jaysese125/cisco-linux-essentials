@@ -497,6 +497,28 @@ Wed Oct 13 06:54:04 UTC 2021
 Document directory report
 ```
 
+### 5.6 Quoting
+- Quotation marks are used throughout linux administration and most computer programming languages to let the system know that the information contained within the quotation marks should either be ignored or treated in a way that is very different than it would normally be treated. There are three types of quotes that have special significance to the Bash shell: double quotes "", single quotes '', and back quotes ``. Each set of quotes alerts the shell not to treat the text within the quotes in the normal way.
+
+#### 5.6.1 Double Quotes
+- Double quotes stop the shell from interpreting some metacharacters (special characters), including glob characters.
+- Glob characters, also called wild cards, are symbols that have special meaning to the shell; they are interpreted by the shell itself before it attempts to run any command. Glob characters include the asterisk * character, the question ? mark character, and the brackets [], among others.
+- Globbing will be covered in greater detail later in the course.
+- Within double quotes an asterisk is just an asterisk, a question mark is just a question mark, and so on, which is useful when you want to display something on the screen that is normally a special character to the shell. In the echo command below, the Bash shell doesn't convert the glob pattern into filenames that match the pattern:
+
+```text
+sysadmin@localhost:~$ echo "the glob characters are *, ?, and []"
+the glob characters are *, ?, and []
+```
+
+- Double quotes still allow for command substitution, variable substitution, and permit some other shell metacharacters that haven't been discussed yet. The following demonstration shows that the value of the PATH variable is still displayed.
+
+```text
+sysadmin@localhost:~$ echo "the path is $PATH"
+the path is /usr/bin/custom: /home/sysadmin/bin: /usr/local/sbin: /usr/local/bin: /usr/sbin: /usr/bin: /sbin: /bin: /usr/games
+```
+*($PATH is variable and executed even it have "$")*
+
 ---
 
 ## 📸 Proof of Learning (Handwritten Notes)
@@ -575,6 +597,12 @@ Document directory report
 
 ### Image 25: Creating Functions
 ![Handwritten notes on creating functions](./assets/handwritten-notes-25.jpg)
+
+### Image 26: Quoting and Double Quotes
+![Handwritten notes on quoting and double quotes](./assets/handwritten-notes-26.jpg)
+
+### Image 27: Double Quotes & Variable Substitution
+![Handwritten notes on double quotes and variable substitution](./assets/handwritten-notes-27.jpg)
 
 ---
 
